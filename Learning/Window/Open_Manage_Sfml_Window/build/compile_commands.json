@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Learning/Window/Open_Manage_Sfml_Window/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/open_manage_sfml_window.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Learning/Window/Open_Manage_Sfml_Window/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Learning/Window/Open_Manage_Sfml_Window/main.cpp"
+}
+]

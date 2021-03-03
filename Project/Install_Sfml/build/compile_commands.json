@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/Install_Sfml/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/install_sfml.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/Install_Sfml/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/Install_Sfml/main.cpp"
+}
+]
