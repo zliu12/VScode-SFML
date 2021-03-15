@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/bouncing_ball.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/bouncing_ball.dir/BounceIt.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/BounceIt.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/Bouncing_ball/BounceIt.cpp"
+}
+]
