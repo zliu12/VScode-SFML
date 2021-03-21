@@ -1,5 +1,5 @@
 /**
- * Create a Shadow Box Effect
+ * Shadow Box Effect
  *
  * Copyright (c) [2021], Zhao Liu.
  */
@@ -36,7 +36,7 @@ int main() {
   white.a = 50;
   txt_mirror.setFillColor(white);     // txt_mirror color: white w/ 50 ocpacity
   txt_mirror.setPosition(100, 355);   // Set txt_mirror position in the window
-  txt_mirror.setScale(1, -0.5);       // txt_mirror flipped and shrinked
+  txt_mirror.setScale(2, -0.5);       // txt_mirror flipped and shrinked
 
   while (win.isOpen()) {
     // Set close event
@@ -61,3 +61,4 @@ int main() {
 
   return 0;
 }
+

@@ -17,8 +17,7 @@ BounceAnObject<T>::BounceAnObject() {
 }
 
 template <class T>
-void BounceAnObject<T>::bounce(sf::RenderWindow &window)
-{
+void BounceAnObject<T>::bounce(sf::RenderWindow &window) {
   // if the object position on X-axis plus the object width is greater than the
   // width of the window (reach right edge of the window)
   if (circle.getPosition().x + circle.getRadius() * 2 > window.getSize().x) {
@@ -52,14 +51,12 @@ void BounceAnObject<T>::bounce(sf::RenderWindow &window)
 }
 
 template <class T>
-void BounceAnObject<T>::draw(sf::RenderTarget &window, sf::RenderStates state) const
-{
+void BounceAnObject<T>::draw(sf::RenderTarget &window, sf::RenderStates state) const {
   window.draw(circle);
 }
 
 template <class T>
-void BounceAnObject<T>::move(float x, float y)
-{
+void BounceAnObject<T>::move(float x, float y) {
   circle.move(x, y);
 }
 
