@@ -10,12 +10,26 @@
 
 #ifndef TEXTINPUTBOX_H_
 #define TEXTINPUTBOX_H_
-#include "SFML/Graphics.hpp"
 #include "guiComponent.h"
 
 class TextInputBox : public GuiComponent {
  private:
-  sf::RectangleShape 
+  sf::RectangleShape rectangleInputBox;
+
+ public:
+  // Default constructor
+  TextInputBox();
+  // Draw function
+  virtual void draw(sf::RenderTarget& window, sf::RenderStates state) const;
+
+  // From EventHandler
+  virtual void addEventHandler(sf::RenderWindow& window, sf::Event event);
+  virtual void update();
+
+  // From SnapshotInterface
+  virtual Snapshot& getSnapshot();
+  virtual void applySnapshot(const Snapshot& snapshot);
+
 };
 
 #endif  // TEXTINPUTBOX_H_

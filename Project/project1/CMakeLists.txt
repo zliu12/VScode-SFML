@@ -15,7 +15,9 @@ add_executable(project1 main.cpp
               MouseEvent.cpp MouseEvent.h
               History.cpp History.h
               TextInput.cpp TextInput.h
-              textInputBox.cpp textInputBox.h)
+              InputBoxLabel.cpp InputBoxLabel.h
+              textInputBox.cpp textInputBox.h
+              cursor.cpp cursor.h)
 
 target_link_libraries(project1 sfml-graphics sfml-audio)
 

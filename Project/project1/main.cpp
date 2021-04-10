@@ -1,4 +1,6 @@
 #include "SFML/Graphics.hpp"
+#include "TextInputBox.h"
+#include "InputBoxLabel.h"
 #include <iostream>
 
 int main() {
@@ -6,6 +8,12 @@ int main() {
 	sf::RenderWindow win(sf::VideoMode(2500, 1500), "Project1");
 	// Set the window's position
 	win.setPosition(sf::Vector2i(250, 250));
+
+	// Create a rectangle text input box
+	TextInputBox rectangle;
+
+	// Create a input box label
+	InputBoxLabel label;
 
 	// While the window is open
 	while (win.isOpen()) {
@@ -19,7 +27,8 @@ int main() {
 		// Clear the screen
 		win.clear();
 		// Draw
-		// win.draw();
+		win.draw(rectangle);
+		win.draw(label);
 		// Display
 		win.display();
 	}
