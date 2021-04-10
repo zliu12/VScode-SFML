@@ -1,6 +1,6 @@
-CMakeFiles/project1.dir/textInputBox.cpp.o: \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/TextInputBox.h \
+CMakeFiles/project1.dir/InputBoxLabel.cpp.o: \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.h \
   /Users/qcl/pcc/spring2021/SFML/Project/project1/guiComponent.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \

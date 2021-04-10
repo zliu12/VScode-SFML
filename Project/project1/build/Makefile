@@ -571,6 +571,30 @@ History.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/History.cpp.s
 .PHONY : History.cpp.s
 
+InputBoxLabel.o: InputBoxLabel.cpp.o
+.PHONY : InputBoxLabel.o
+
+# target to build an object file
+InputBoxLabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.o
+.PHONY : InputBoxLabel.cpp.o
+
+InputBoxLabel.i: InputBoxLabel.cpp.i
+.PHONY : InputBoxLabel.i
+
+# target to preprocess a source file
+InputBoxLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.i
+.PHONY : InputBoxLabel.cpp.i
+
+InputBoxLabel.s: InputBoxLabel.cpp.s
+.PHONY : InputBoxLabel.s
+
+# target to generate assembly for a file
+InputBoxLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.s
+.PHONY : InputBoxLabel.cpp.s
+
 KeyBoardShortCutUndo.o: KeyBoardShortCutUndo.cpp.o
 .PHONY : KeyBoardShortCutUndo.o
 
@@ -715,6 +739,30 @@ TextInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextInput.cpp.s
 .PHONY : TextInput.cpp.s
 
+cursor.o: cursor.cpp.o
+.PHONY : cursor.o
+
+# target to build an object file
+cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.o
+.PHONY : cursor.cpp.o
+
+cursor.i: cursor.cpp.i
+.PHONY : cursor.i
+
+# target to preprocess a source file
+cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.i
+.PHONY : cursor.cpp.i
+
+cursor.s: cursor.cpp.s
+.PHONY : cursor.s
+
+# target to generate assembly for a file
+cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.s
+.PHONY : cursor.cpp.s
+
 guiComponent.o: guiComponent.cpp.o
 .PHONY : guiComponent.o
 
@@ -833,6 +881,9 @@ help:
 	@echo "... History.o"
 	@echo "... History.i"
 	@echo "... History.s"
+	@echo "... InputBoxLabel.o"
+	@echo "... InputBoxLabel.i"
+	@echo "... InputBoxLabel.s"
 	@echo "... KeyBoardShortCutUndo.o"
 	@echo "... KeyBoardShortCutUndo.i"
 	@echo "... KeyBoardShortCutUndo.s"
@@ -851,6 +902,9 @@ help:
 	@echo "... TextInput.o"
 	@echo "... TextInput.i"
 	@echo "... TextInput.s"
+	@echo "... cursor.o"
+	@echo "... cursor.i"
+	@echo "... cursor.s"
 	@echo "... guiComponent.o"
 	@echo "... guiComponent.i"
 	@echo "... guiComponent.s"

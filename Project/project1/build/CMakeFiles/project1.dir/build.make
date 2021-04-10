@@ -209,10 +209,24 @@ CMakeFiles/project1.dir/TextInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/TextInput.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/project1/TextInput.cpp -o CMakeFiles/project1.dir/TextInput.cpp.s
 
+CMakeFiles/project1.dir/InputBoxLabel.cpp.o: CMakeFiles/project1.dir/flags.make
+CMakeFiles/project1.dir/InputBoxLabel.cpp.o: ../InputBoxLabel.cpp
+CMakeFiles/project1.dir/InputBoxLabel.cpp.o: CMakeFiles/project1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project1.dir/InputBoxLabel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project1.dir/InputBoxLabel.cpp.o -MF CMakeFiles/project1.dir/InputBoxLabel.cpp.o.d -o CMakeFiles/project1.dir/InputBoxLabel.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp
+
+CMakeFiles/project1.dir/InputBoxLabel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/InputBoxLabel.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp > CMakeFiles/project1.dir/InputBoxLabel.cpp.i
+
+CMakeFiles/project1.dir/InputBoxLabel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/InputBoxLabel.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp -o CMakeFiles/project1.dir/InputBoxLabel.cpp.s
+
 CMakeFiles/project1.dir/textInputBox.cpp.o: CMakeFiles/project1.dir/flags.make
 CMakeFiles/project1.dir/textInputBox.cpp.o: ../textInputBox.cpp
 CMakeFiles/project1.dir/textInputBox.cpp.o: CMakeFiles/project1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project1.dir/textInputBox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project1.dir/textInputBox.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project1.dir/textInputBox.cpp.o -MF CMakeFiles/project1.dir/textInputBox.cpp.o.d -o CMakeFiles/project1.dir/textInputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp
 
 CMakeFiles/project1.dir/textInputBox.cpp.i: cmake_force
@@ -222,6 +236,20 @@ CMakeFiles/project1.dir/textInputBox.cpp.i: cmake_force
 CMakeFiles/project1.dir/textInputBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/textInputBox.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp -o CMakeFiles/project1.dir/textInputBox.cpp.s
+
+CMakeFiles/project1.dir/cursor.cpp.o: CMakeFiles/project1.dir/flags.make
+CMakeFiles/project1.dir/cursor.cpp.o: ../cursor.cpp
+CMakeFiles/project1.dir/cursor.cpp.o: CMakeFiles/project1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project1.dir/cursor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project1.dir/cursor.cpp.o -MF CMakeFiles/project1.dir/cursor.cpp.o.d -o CMakeFiles/project1.dir/cursor.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/cursor.cpp
+
+CMakeFiles/project1.dir/cursor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/cursor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/project1/cursor.cpp > CMakeFiles/project1.dir/cursor.cpp.i
+
+CMakeFiles/project1.dir/cursor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/cursor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/project1/cursor.cpp -o CMakeFiles/project1.dir/cursor.cpp.s
 
 # Object files for target project1
 project1_OBJECTS = \
@@ -235,7 +263,9 @@ project1_OBJECTS = \
 "CMakeFiles/project1.dir/MouseEvent.cpp.o" \
 "CMakeFiles/project1.dir/History.cpp.o" \
 "CMakeFiles/project1.dir/TextInput.cpp.o" \
-"CMakeFiles/project1.dir/textInputBox.cpp.o"
+"CMakeFiles/project1.dir/InputBoxLabel.cpp.o" \
+"CMakeFiles/project1.dir/textInputBox.cpp.o" \
+"CMakeFiles/project1.dir/cursor.cpp.o"
 
 # External object files for target project1
 project1_EXTERNAL_OBJECTS =
@@ -250,14 +280,16 @@ project1: CMakeFiles/project1.dir/KeyBoardShortCutUndo.cpp.o
 project1: CMakeFiles/project1.dir/MouseEvent.cpp.o
 project1: CMakeFiles/project1.dir/History.cpp.o
 project1: CMakeFiles/project1.dir/TextInput.cpp.o
+project1: CMakeFiles/project1.dir/InputBoxLabel.cpp.o
 project1: CMakeFiles/project1.dir/textInputBox.cpp.o
+project1: CMakeFiles/project1.dir/cursor.cpp.o
 project1: CMakeFiles/project1.dir/build.make
 project1: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 project1: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
 project1: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 project1: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 project1: CMakeFiles/project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable project1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable project1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

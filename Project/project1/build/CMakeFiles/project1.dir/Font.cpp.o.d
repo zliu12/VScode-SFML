@@ -1,6 +1,6 @@
-CMakeFiles/project1.dir/textInputBox.cpp.o: \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/TextInputBox.h \
+CMakeFiles/project1.dir/Font.cpp.o: \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Font.cpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Font.h \
   /Users/qcl/pcc/spring2021/SFML/Project/project1/guiComponent.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
@@ -311,4 +311,6 @@ CMakeFiles/project1.dir/textInputBox.cpp.o: \
   /Users/qcl/pcc/spring2021/SFML/Project/project1/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/project1/States.h \
   /Users/qcl/pcc/spring2021/SFML/Project/project1/SnapshotInterface.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/Snapshot.h
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Snapshot.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/istream
