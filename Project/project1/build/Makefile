@@ -523,6 +523,30 @@ Experimental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
+Cursor.o: Cursor.cpp.o
+.PHONY : Cursor.o
+
+# target to build an object file
+Cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Cursor.cpp.o
+.PHONY : Cursor.cpp.o
+
+Cursor.i: Cursor.cpp.i
+.PHONY : Cursor.i
+
+# target to preprocess a source file
+Cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Cursor.cpp.i
+.PHONY : Cursor.cpp.i
+
+Cursor.s: Cursor.cpp.s
+.PHONY : Cursor.s
+
+# target to generate assembly for a file
+Cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Cursor.cpp.s
+.PHONY : Cursor.cpp.s
+
 EventHandler.o: EventHandler.cpp.o
 .PHONY : EventHandler.o
 
@@ -570,6 +594,30 @@ History.s: History.cpp.s
 History.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/History.cpp.s
 .PHONY : History.cpp.s
+
+InputBox.o: InputBox.cpp.o
+.PHONY : InputBox.o
+
+# target to build an object file
+InputBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.o
+.PHONY : InputBox.cpp.o
+
+InputBox.i: InputBox.cpp.i
+.PHONY : InputBox.i
+
+# target to preprocess a source file
+InputBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.i
+.PHONY : InputBox.cpp.i
+
+InputBox.s: InputBox.cpp.s
+.PHONY : InputBox.s
+
+# target to generate assembly for a file
+InputBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.s
+.PHONY : InputBox.cpp.s
 
 InputBoxLabel.o: InputBoxLabel.cpp.o
 .PHONY : InputBoxLabel.o
@@ -739,29 +787,29 @@ TextInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextInput.cpp.s
 .PHONY : TextInput.cpp.s
 
-cursor.o: cursor.cpp.o
-.PHONY : cursor.o
+Type.o: Type.cpp.o
+.PHONY : Type.o
 
 # target to build an object file
-cursor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.o
-.PHONY : cursor.cpp.o
+Type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.o
+.PHONY : Type.cpp.o
 
-cursor.i: cursor.cpp.i
-.PHONY : cursor.i
+Type.i: Type.cpp.i
+.PHONY : Type.i
 
 # target to preprocess a source file
-cursor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.i
-.PHONY : cursor.cpp.i
+Type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.i
+.PHONY : Type.cpp.i
 
-cursor.s: cursor.cpp.s
-.PHONY : cursor.s
+Type.s: Type.cpp.s
+.PHONY : Type.s
 
 # target to generate assembly for a file
-cursor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/cursor.cpp.s
-.PHONY : cursor.cpp.s
+Type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.s
+.PHONY : Type.cpp.s
 
 guiComponent.o: guiComponent.cpp.o
 .PHONY : guiComponent.o
@@ -811,30 +859,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-textInputBox.o: textInputBox.cpp.o
-.PHONY : textInputBox.o
-
-# target to build an object file
-textInputBox.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/textInputBox.cpp.o
-.PHONY : textInputBox.cpp.o
-
-textInputBox.i: textInputBox.cpp.i
-.PHONY : textInputBox.i
-
-# target to preprocess a source file
-textInputBox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/textInputBox.cpp.i
-.PHONY : textInputBox.cpp.i
-
-textInputBox.s: textInputBox.cpp.s
-.PHONY : textInputBox.s
-
-# target to generate assembly for a file
-textInputBox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/textInputBox.cpp.s
-.PHONY : textInputBox.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -875,12 +899,18 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... project1"
+	@echo "... Cursor.o"
+	@echo "... Cursor.i"
+	@echo "... Cursor.s"
 	@echo "... EventHandler.o"
 	@echo "... EventHandler.i"
 	@echo "... EventHandler.s"
 	@echo "... History.o"
 	@echo "... History.i"
 	@echo "... History.s"
+	@echo "... InputBox.o"
+	@echo "... InputBox.i"
+	@echo "... InputBox.s"
 	@echo "... InputBoxLabel.o"
 	@echo "... InputBoxLabel.i"
 	@echo "... InputBoxLabel.s"
@@ -902,18 +932,15 @@ help:
 	@echo "... TextInput.o"
 	@echo "... TextInput.i"
 	@echo "... TextInput.s"
-	@echo "... cursor.o"
-	@echo "... cursor.i"
-	@echo "... cursor.s"
+	@echo "... Type.o"
+	@echo "... Type.i"
+	@echo "... Type.s"
 	@echo "... guiComponent.o"
 	@echo "... guiComponent.i"
 	@echo "... guiComponent.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... textInputBox.o"
-	@echo "... textInputBox.i"
-	@echo "... textInputBox.s"
 .PHONY : help
 
 

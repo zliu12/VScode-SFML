@@ -5,19 +5,29 @@
  */
 
 #include "InputBoxLabel.h"
+#include <iostream>
 
 // Default constructor
 InputBoxLabel::InputBoxLabel() {
   loadFont();
-  boxLabel.setFont(font);
+  boxLabel.setFont(labelFont);
   setLabelContent("TEXT INPUT BOX");
   setLabelSize(100);
-  setLabelPosition(350, 495);
+  setLabelPos(350, 495);
 }
 
 // Load font
 void InputBoxLabel::loadFont() {
-  font.loadFromFile("OpenSans-Bold copy.ttf");
+  labelFont.loadFromFile("OpenSans-Bold copy.ttf");
+  if (!labelFont.loadFromFile("OpenSans-Bold copy.ttf")) {
+    std::cout << "Fail to load label font." << std::endl;
+    return;
+  }
+}
+
+// Set font
+void InputBoxLabel::setLabelFont() {
+  boxLabel.setFont(labelFont);
 }
 
 // Set label content
@@ -31,7 +41,7 @@ void InputBoxLabel::setLabelSize(unsigned lableSize) {
 }
 
 // Set label position
-void InputBoxLabel::setLabelPosition(float x, float y) {
+void InputBoxLabel::setLabelPos(float x, float y) {
   boxLabel.setPosition(sf::Vector2f(x, y));
 }
 
@@ -41,9 +51,9 @@ void InputBoxLabel::draw(sf::RenderTarget& window, sf::RenderStates states) cons
 }
 
 // From EventHandler
-void InputBoxLabel::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
-void InputBoxLabel::update() {}
+// void InputBoxLabel::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
+// void InputBoxLabel::update() {}
 
 // From SnapshotInterface
-Snapshot& InputBoxLabel::getSnapshot() {}
-void InputBoxLabel::applySnapshot(const Snapshot& snapshot) {}
+// Snapshot& InputBoxLabel::getSnapshot() {}
+// void InputBoxLabel::applySnapshot(const Snapshot& snapshot) {}

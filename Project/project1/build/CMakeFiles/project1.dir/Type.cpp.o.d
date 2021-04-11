@@ -1,6 +1,7 @@
-CMakeFiles/project1.dir/Cursor.cpp.o: \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.h \
+CMakeFiles/project1.dir/Type.cpp.o: \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Type.cpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Type.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/guiComponent.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \
@@ -306,4 +307,11 @@ CMakeFiles/project1.dir/Cursor.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Glsl.inl \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp
+  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/EventHandler.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/States.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/SnapshotInterface.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/Snapshot.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/istream

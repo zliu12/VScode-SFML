@@ -1,6 +1,6 @@
-CMakeFiles/project1.dir/Cursor.cpp.o: \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.h \
+CMakeFiles/project1.dir/InputBox.cpp.o: \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.cpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \
@@ -306,4 +306,6 @@ CMakeFiles/project1.dir/Cursor.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Glsl.inl \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp
+  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/istream

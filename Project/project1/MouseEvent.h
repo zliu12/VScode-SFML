@@ -12,7 +12,7 @@ template <class T>
 class MouseEvents {
  public:
   // Return true if the mouse clicks on the object
-  static bool mouseClicked(T& object, sf::RenderWindow& window);
+  static bool mouseClicked(T& object, sf::RenderWindow& window) ;
 
   // Return true if the mouse clicks anywhere in the window
   static bool mouseClicked(sf::RenderWindow& window, sf::Event event);

@@ -56,12 +56,17 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/textInputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/textInputBox.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.cpp"
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/cursor.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/cursor.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/cursor.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/Cursor.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/Cursor.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/Type.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/Type.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/Type.cpp"
 }
 ]

@@ -16,8 +16,9 @@ add_executable(project1 main.cpp
               History.cpp History.h
               TextInput.cpp TextInput.h
               InputBoxLabel.cpp InputBoxLabel.h
-              textInputBox.cpp textInputBox.h
-              cursor.cpp cursor.h)
+              InputBox.cpp InputBox.h
+              Cursor.cpp Cursor.h
+              Type.cpp Type.h)
 
 target_link_libraries(project1 sfml-graphics sfml-audio)
 
