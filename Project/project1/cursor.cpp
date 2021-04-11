@@ -8,7 +8,7 @@
 
 // Default constructor
 Cursor::Cursor() {
-  setCursorSize(50, 200);
+  setCursorSize(25, 200);
   setCursorColor(sf::Color::White);
 }
 
@@ -39,12 +39,12 @@ float Cursor::getCursorHeight() {
 
 // Check for the time elapsed and reset the clock
 void Cursor::checkAndReset() {
-  if (cursorClock.getElapsedTime() >= sf::milliseconds(800)) {
+  if (cursorClock.getElapsedTime() > sf::milliseconds(600)) {
     setCursorColor(sf::Color::Black); 
-    cursorClock.restart();
   }
-  else if (cursorClock.getElapsedTime() >= sf::milliseconds(800)) {
-    cursor.setFillColor(sf::Color::White);
+  if (cursorClock.getElapsedTime() > sf::milliseconds(1200)) {
+    setCursorColor(sf::Color::White);
+    cursorClock.restart();
   }
 }
 

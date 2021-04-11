@@ -20,6 +20,10 @@ TextInput::TextInput() {
   setCursorPos(inputBox.getBoxPosX() + 25,
                inputBox.getBoxPosY() + 
                (inputBox.getBoxHeight() - cursor.getCursorHeight()) / 2);
+
+  /* Typing */
+  Typing();
+  inputText.setCharPos(inputBox.getBoxPosX() + 25, inputBox.getBoxPosY());
 }
 
 /* Text Input Box */
@@ -91,12 +95,23 @@ void TextInput::draw(sf::RenderTarget& window, sf::RenderStates state) const {
   inputBox.draw(window, state);
   inputBoxLabel.draw(window, state);
   cursor.draw(window,state);
+  inputText.draw(window, state);
 }
 
 // From EventHandler
-void TextInput::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
+void TextInput::addEventHandler(sf::RenderWindow& window, sf::Event event) {
+  inputText.addEventHandler(window, event);
+}
+
 void TextInput::update() {
-  // cursor.update();
+  inputText.update();
+  cursor.update();
+  // cursor.setCursorPos(inputText.getTxtWidthBound() + 25,
+                      // inputText.getTxtHeightBound() + 25);
+
+  setCursorPos(inputBox.getBoxPosX() + inputText.getTxtWidthBound() + 50,
+               inputBox.getBoxPosY() + 
+               (inputBox.getBoxHeight() - cursor.getCursorHeight()) / 2);
 }
 
 // From SnapshotInterface

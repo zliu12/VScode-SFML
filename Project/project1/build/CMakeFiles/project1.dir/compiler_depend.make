@@ -2201,7 +2201,6 @@ CMakeFiles/project1.dir/TextInput.cpp.o: ../TextInput.cpp \
 
 CMakeFiles/project1.dir/Type.cpp.o: ../Type.cpp \
   ../Type.h \
-  ../guiComponent.h \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \
@@ -2508,11 +2507,6 @@ CMakeFiles/project1.dir/Type.cpp.o: ../Type.cpp \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  ../EventHandler.h \
-  ../States.h \
-  ../SnapshotInterface.h \
-  ../Snapshot.h \
-  ../InputBox.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/istream
 

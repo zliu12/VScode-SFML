@@ -9,16 +9,16 @@
 #define DELETE_KEY 8
 
 // Default constructor
-Type::Type() {
+Typing::Typing() {
   loadTypingFont();
   txt.setFont(typingfont);
-  txt.setCharacterSize(100);
-  txt.setFillColor(sf::Color::White);
-  txt.setPosition(1000, 1000);
+  setCharSize(200);
+  setCharColor(sf::Color::White);
+  setCharPos(1000, 1000);
 }
 
 // Load font
-void Type::loadTypingFont() {
+void Typing::loadTypingFont() {
   typingfont.loadFromFile("OpenSans-Bold copy.ttf");
   if (!typingfont.loadFromFile("OpenSans-Bold copy.ttf")) {
     std::cout << "Fail to load typing font." << std::endl;
@@ -26,23 +26,38 @@ void Type::loadTypingFont() {
   }
 }
 
-  // Load font
-  void loadTypingFont();
+// Set font
+void Typing::setTypingFont() {
+  txt.setFont(typingfont);
+}
 
-  // Set font
-  void setTypingFont();
+// Set character size
+void Typing::setCharSize(unsigned charSize) {
+  txt.setCharacterSize(charSize);
+}
 
-  // Set character size
-  void setCharSize();
+// Set typing position
+void Typing::setCharPos(float x, float y) {
+  txt.setPosition(sf::Vector2f(x, y));
+}
 
-  // Set typing position
-  void setCharPos();
+// Set character color
+void Typing::setCharColor(sf::Color color) {
+  txt.setFillColor(color);
+}
 
-  // Set character color
-  void setCharColor();
-  
+// Get text bound width
+float Typing::getTxtWidthBound() {
+  return txt.getGlobalBounds().width;
+}
+
+// Get text bound height
+float Typing::getTxtHeightBound() {
+  return txt.getGlobalBounds().height;
+}
+
 // Delete input character
-void Type::deleteInputChar(sf::RenderWindow& window, sf::Event event) {
+void Typing::deleteInputChar(sf::RenderWindow& window, sf::Event event) {
   if (str.getSize() > 0) {
     str.erase(str.getSize() - 1);
   } else {
@@ -51,12 +66,12 @@ void Type::deleteInputChar(sf::RenderWindow& window, sf::Event event) {
 }
 
 // From the sf::Drawable class, draw the txt
-void Type::draw(sf::RenderTarget& window, sf::RenderStates states) const {
+void Typing::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   window.draw(txt);
 }
 
 // From EventHandler, take care of the event
-void Type::addEventHandler(sf::RenderWindow& window, sf::Event event) {
+void Typing::addEventHandler(sf::RenderWindow& window, sf::Event event) {
   if (event.type == sf::Event::TextEntered) {
     if (event.text.unicode == 8) {
       deleteInputChar(window, event);
@@ -65,13 +80,14 @@ void Type::addEventHandler(sf::RenderWindow& window, sf::Event event) {
       str += event.text.unicode;
     }
   }
+
 }
 
 // Update the typing content
-void Type::update() {
-  txt.setString(str + "_");
+void Typing::update() {
+  txt.setString(str);
 }
 
 // From SnapshotInterface
-Snapshot& Type::getSnapshot() {}
-void Type::applySnapshot(const Snapshot& snapshot) {}
+// Snapshot& Typing::getSnapshot() {}
+// void Typing::applySnapshot(const Snapshot& snapshot) {}

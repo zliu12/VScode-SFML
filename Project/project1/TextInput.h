@@ -18,8 +18,7 @@ class TextInput : public GuiComponent {
   InputBox inputBox;
   InputBoxLabel inputBoxLabel;
   Cursor cursor;
-  Type inputText;
-  sf::Clock cursorClock;
+  Typing inputText;
 
  public:
   // Default constructor

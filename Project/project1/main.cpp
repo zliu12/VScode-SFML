@@ -1,6 +1,5 @@
 #include "SFML/Graphics.hpp"
 #include "TextInput.h"
-#include "Type.h"
 #include <iostream>
 
 int main() {
@@ -12,9 +11,6 @@ int main() {
 	// Create a text input object
 	TextInput inputBox;
 
-	// Create a Type object
-	Type typing;
-
 	// While the window is open
 	while (win.isOpen()) {
 		sf::Event event;
@@ -25,7 +21,7 @@ int main() {
 			}
 
 			// Detect the keyboard inputs and concatenate inputs to the text object
-			typing.addEventHandler(win, event);
+			inputBox.addEventHandler(win, event);
 		}
 
 		// Get mouse position
@@ -34,7 +30,6 @@ int main() {
 
 		// Update the typing content before the object is drawn on the screen and
 		// after the TextEntered event is handled 
-		typing.update();
 		inputBox.update();
 		
 		// Clear the screen
@@ -42,8 +37,6 @@ int main() {
 
 		// Draw the text input box
 		win.draw(inputBox);
-		// Draw the text content
-		win.draw(typing);
 
 		// Display
 		win.display();

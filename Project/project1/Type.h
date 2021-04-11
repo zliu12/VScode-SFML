@@ -6,11 +6,9 @@
 
 #ifndef TYPE_H_
 #define TYPE_H_
-#include "guiComponent.h"
-#include "InputBox.h"
-#include <string>
+#include "SFML/Graphics.hpp"
 
-class Type : public GuiComponent {
+class Typing{
  private:
   sf::Font typingfont;
   sf::Text txt;
@@ -18,7 +16,7 @@ class Type : public GuiComponent {
 
  public:
   // Default constructor
-  Type();
+  Typing();
 
   // Load font
   void loadTypingFont();
@@ -27,13 +25,19 @@ class Type : public GuiComponent {
   void setTypingFont();
 
   // Set character size
-  void setCharSize();
+  void setCharSize(unsigned charSize);
 
   // Set typing position
-  void setCharPos();
+  void setCharPos(float x, float y);
 
   // Set character color
-  void setCharColor();
+  void setCharColor(sf::Color color);
+
+  // Get text bound width
+  float getTxtWidthBound();
+
+  // Get text bound height
+  float getTxtHeightBound();
 
   // Delete input Character
   void deleteInputChar(sf::RenderWindow& window, sf::Event event);
@@ -46,8 +50,8 @@ class Type : public GuiComponent {
   virtual void update();
 
   // From SnapshotInterface
-  virtual Snapshot& getSnapshot();
-  virtual void applySnapshot(const Snapshot& snapshot);
+  // virtual Snapshot& getSnapshot();
+  // virtual void applySnapshot(const Snapshot& snapshot);
 };
 
 #endif  // TYPE_H_
