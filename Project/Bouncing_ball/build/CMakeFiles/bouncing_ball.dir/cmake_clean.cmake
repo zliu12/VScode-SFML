@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bouncing_ball.dir/BounceIt.cpp.o"
+  "CMakeFiles/bouncing_ball.dir/BounceIt.cpp.o.d"
   "CMakeFiles/bouncing_ball.dir/main.cpp.o"
+  "CMakeFiles/bouncing_ball.dir/main.cpp.o.d"
   "bouncing_ball"
   "bouncing_ball.pdb"
 )

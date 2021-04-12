@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shadow_box_effect.dir/main.cpp.o"
+  "CMakeFiles/shadow_box_effect.dir/main.cpp.o.d"
   "shadow_box_effect"
   "shadow_box_effect.pdb"
 )

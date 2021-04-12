@@ -22,8 +22,7 @@ PrintTextTyped::PrintTextTyped() {
 void PrintTextTyped::loadFont() {
   font.loadFromFile("OpenSans-Bold.ttf");
   if (!font.loadFromFile("OpenSans-Bold.ttf")) {
-    std::cout << "Fail to load the font." << std::endl;;
-    return;
+    std::cout << "Fail to load the font." << std::endl;
   }
 }
 

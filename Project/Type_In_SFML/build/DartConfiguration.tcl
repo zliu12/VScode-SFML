@@ -83,10 +83,6 @@ MemoryCheckSuppressionFile:
 CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
 
-# Cluster commands
-SlurmBatchCommand: SLURM_SBATCH_COMMAND-NOTFOUND
-SlurmRunCommand: SLURM_SRUN_COMMAND-NOTFOUND
-
 # Testing options
 # TimeOut is the amount of time in seconds to wait for processes
 # to complete during testing.  After TimeOut seconds, the

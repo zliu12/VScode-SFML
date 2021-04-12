@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/type_in_SFML.dir/main.cpp.o"
+  "CMakeFiles/type_in_SFML.dir/main.cpp.o.d"
   "CMakeFiles/type_in_SFML.dir/typeInSFML.cpp.o"
+  "CMakeFiles/type_in_SFML.dir/typeInSFML.cpp.o.d"
   "type_in_SFML"
   "type_in_SFML.pdb"
 )
