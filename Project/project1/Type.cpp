@@ -6,6 +6,7 @@
 
 #include "Type.h"
 #include <iostream>
+#include <string>
 #define DELETE_KEY 8
 
 // Default constructor
@@ -89,5 +90,5 @@ void Typing::update() {
 }
 
 // From SnapshotInterface
-// Snapshot& Typing::getSnapshot() {}
-// void Typing::applySnapshot(const Snapshot& snapshot) {}
+Snapshot& Typing::getSnapshot() {}
+void Typing::applySnapshot(const Snapshot& snapshot) {}

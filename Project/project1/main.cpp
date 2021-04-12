@@ -24,10 +24,6 @@ int main() {
 			inputBox.addEventHandler(win, event);
 		}
 
-		// Get mouse position
-		// std::cout << sf::Mouse::getPosition(win).x << " "
-							// << sf::Mouse::getPosition(win).y << std::endl;
-
 		// Update the typing content before the object is drawn on the screen and
 		// after the TextEntered event is handled 
 		inputBox.update();

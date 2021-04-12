@@ -7,9 +7,10 @@
 #ifndef MOUSEEVENT_H_
 #define MOUSEEVENT_H_
 #include "SFML/Graphics.hpp"
+#include "guiComponent.h"
 
 template <class T>
-class MouseEvents {
+class MouseEvents : public GuiComponent{
  public:
   // Return true if the mouse clicks on the object
   static bool mouseClicked(T& object, sf::RenderWindow& window) ;

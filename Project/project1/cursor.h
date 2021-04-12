@@ -7,13 +7,14 @@
 #ifndef CURSOR_H_
 #define CURSOR_H_
 #include "SFML/Graphics.hpp"
+#include "guiComponent.h"
 #include <string>
 
-class Cursor {
+class Cursor : public GuiComponent{
  private:
   sf::RectangleShape cursor;
   sf::Clock cursorClock;
-  bool cursorBlinking = false;
+  bool isClicked;
 
  public:
   // Default constructor
@@ -41,12 +42,12 @@ class Cursor {
   virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 
   // From EventHandler
-  // virtual void addEventHandler(sf::RenderWindow& window, sf::Event event);
+  virtual void addEventHandler(sf::RenderWindow& window, sf::Event event);
   virtual void update();
 
   // From SnapshotInterface
-  // virtual Snapshot& getSnapshot();
-  // virtual void applySnapshot(const Snapshot& snapshot);
+  virtual Snapshot& getSnapshot();
+  virtual void applySnapshot(const Snapshot& snapshot);
 };
 
 #endif  // CURSOR_H_

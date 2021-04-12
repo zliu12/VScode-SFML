@@ -22,6 +22,7 @@ class History {
     bool found = false;
     GuiComponent* component;
   };
+  
   static void pushHistory(const Snapshot& snapshot);
   static Snapshot& topHistory();
   static void popHistory();

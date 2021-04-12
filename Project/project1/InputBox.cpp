@@ -74,10 +74,10 @@ void InputBox::draw(sf::RenderTarget& window, sf::RenderStates state) const {
 }
 
 // From EventHandler
-// void InputBox::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
-// void InputBox::update() {}
+void InputBox::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
+void InputBox::update() {}
 
 // From SnapshotInterface
-// Snapshot& TextInputBox::getSnapshot() {}
-// void TextInputBox::applySnapshot(const Snapshot& snapshot) {}
+Snapshot& InputBox::getSnapshot() {}
+void InputBox::applySnapshot(const Snapshot& snapshot) {}
 

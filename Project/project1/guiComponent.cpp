@@ -1,5 +1,5 @@
 /**
- * Project 1 - GUI Component Implementation File
+ * Project 1 - GUI Component - Implementation File
  *
  * Copyright (c) [2021], Zhao Liu.
  */

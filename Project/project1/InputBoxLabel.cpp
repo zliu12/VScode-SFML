@@ -51,9 +51,9 @@ void InputBoxLabel::draw(sf::RenderTarget& window, sf::RenderStates states) cons
 }
 
 // From EventHandler
-// void InputBoxLabel::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
-// void InputBoxLabel::update() {}
+void InputBoxLabel::addEventHandler(sf::RenderWindow& window, sf::Event event) {}
+void InputBoxLabel::update() {}
 
 // From SnapshotInterface
-// Snapshot& InputBoxLabel::getSnapshot() {}
-// void InputBoxLabel::applySnapshot(const Snapshot& snapshot) {}
+Snapshot& InputBoxLabel::getSnapshot() {}
+void InputBoxLabel::applySnapshot(const Snapshot& snapshot) {}

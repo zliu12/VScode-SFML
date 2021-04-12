@@ -19,6 +19,7 @@ class TextInput : public GuiComponent {
   InputBoxLabel inputBoxLabel;
   Cursor cursor;
   Typing inputText;
+  bool isClicked = true;
 
  public:
   // Default constructor
@@ -27,8 +28,6 @@ class TextInput : public GuiComponent {
   /* Typing */
   // Set typing font
   void setTypingFont();
-  // Set 
-
 
   /* Text Input Box */
   // Set input box size
@@ -62,6 +61,10 @@ class TextInput : public GuiComponent {
   // Set cursor color
   void setCursorColor(sf::Color color);
 
+
+  /* Click to enable typing and blinking cursor */
+  // Set isClicked to true
+  void clikeToEnable();
 
   // Draw function
   virtual void draw(sf::RenderTarget& window, sf::RenderStates state) const;

@@ -8,7 +8,7 @@
 #define SNAPSHOT_H_
 
 class Snapshot {
-
+  
 };
 
 #endif  // SNAPSHOT_H_

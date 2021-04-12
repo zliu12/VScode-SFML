@@ -10,6 +10,7 @@
 Cursor::Cursor() {
   setCursorSize(25, 200);
   setCursorColor(sf::Color::White);
+  isClicked = false;
 }
 
 // Set cursor size
@@ -39,10 +40,10 @@ float Cursor::getCursorHeight() {
 
 // Check for the time elapsed and reset the clock
 void Cursor::checkAndReset() {
-  if (cursorClock.getElapsedTime() > sf::milliseconds(600)) {
+  if (cursorClock.getElapsedTime() > sf::milliseconds(500)) {
     setCursorColor(sf::Color::Black); 
   }
-  if (cursorClock.getElapsedTime() > sf::milliseconds(1200)) {
+  if (cursorClock.getElapsedTime() > sf::milliseconds(1000)) {
     setCursorColor(sf::Color::White);
     cursorClock.restart();
   }
@@ -53,6 +54,15 @@ void Cursor::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   window.draw(cursor);
 }
 
+// From EventHandler
+void Cursor::addEventHandler(sf::RenderWindow& window, sf::Event event) {
+  
+}
+
 void Cursor::update() {
   checkAndReset();
 }
+
+// From SnapshotInterface
+Snapshot& Cursor::getSnapshot() {}
+void Cursor::applySnapshot(const Snapshot& snapshot) {}

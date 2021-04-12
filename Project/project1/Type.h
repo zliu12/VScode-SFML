@@ -7,8 +7,9 @@
 #ifndef TYPE_H_
 #define TYPE_H_
 #include "SFML/Graphics.hpp"
+#include "guiComponent.h"
 
-class Typing{
+class Typing : public GuiComponent {
  private:
   sf::Font typingfont;
   sf::Text txt;
@@ -50,8 +51,8 @@ class Typing{
   virtual void update();
 
   // From SnapshotInterface
-  // virtual Snapshot& getSnapshot();
-  // virtual void applySnapshot(const Snapshot& snapshot);
+  virtual Snapshot& getSnapshot();
+  virtual void applySnapshot(const Snapshot& snapshot);
 };
 
 #endif  // TYPE_H_

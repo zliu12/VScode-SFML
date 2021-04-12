@@ -90,12 +90,20 @@ void TextInput::setCursorColor(sf::Color color) {
   cursor.setCursorColor(color);
 }
 
+
+// Set isClicked to true
+void TextInput::clikeToEnable() {
+  if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) {
+    isClicked = true;
+  }
+}
+
 // Draw function
 void TextInput::draw(sf::RenderTarget& window, sf::RenderStates state) const {
   inputBox.draw(window, state);
   inputBoxLabel.draw(window, state);
-  cursor.draw(window,state);
   inputText.draw(window, state);
+  cursor.draw(window,state);
 }
 
 // From EventHandler
@@ -106,9 +114,6 @@ void TextInput::addEventHandler(sf::RenderWindow& window, sf::Event event) {
 void TextInput::update() {
   inputText.update();
   cursor.update();
-  // cursor.setCursorPos(inputText.getTxtWidthBound() + 25,
-                      // inputText.getTxtHeightBound() + 25);
-
   setCursorPos(inputBox.getBoxPosX() + inputText.getTxtWidthBound() + 50,
                inputBox.getBoxPosY() + 
                (inputBox.getBoxHeight() - cursor.getCursorHeight()) / 2);

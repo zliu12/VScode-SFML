@@ -11,7 +11,7 @@
 // Return true if the mouse clicks on the object
 template <class T>
 bool MouseEvents<T>::mouseClicked(T& object, sf::RenderWindow& window) {
-  
+
 }
 
 // Return true if the mouse clicks anywhere in the window
