@@ -5,12 +5,10 @@
  */
 
 #include "Cursor.h"
-
+#include <iostream>
 // Default constructor
 Cursor::Cursor() {
-  setCursorSize(25, 200);
-  setCursorColor(sf::Color::White);
-  isClicked = false;
+
 }
 
 // Set cursor size
@@ -38,14 +36,14 @@ float Cursor::getCursorHeight() {
   return cursor.getSize().y;
 }
 
-// Check for the time elapsed and reset the clock
-void Cursor::checkAndReset() {
-  if (cursorClock.getElapsedTime() > sf::milliseconds(500)) {
-    setCursorColor(sf::Color::Black); 
+void Cursor::blinking() {
+  if (States::checkIfStateEnabled(States::CURSORBLINKING)) {
+    // Disable (false) CURSORBLINKING if true
+    States::disableState(States::CURSORBLINKING);
   }
-  if (cursorClock.getElapsedTime() > sf::milliseconds(1000)) {
-    setCursorColor(sf::Color::White);
-    cursorClock.restart();
+  else {
+    // Enable (true) CURSORBLINKING if false
+    States::enableState(CURSORBLINKING);
   }
 }
 
@@ -60,7 +58,21 @@ void Cursor::addEventHandler(sf::RenderWindow& window, sf::Event event) {
 }
 
 void Cursor::update() {
-  checkAndReset();
+  // cursorClock time interval is 0.4s
+  if (cursorClock.getElapsedTime() > sf::seconds(blinkTimeInterval)) {
+    // cursor is transparent when CURSORBLINKING is true
+    if (States::checkIfStateEnabled(CURSORBLINKING)) {
+      cursor.setFillColor(sf::Color::Transparent);
+    }
+    // cursor is while when CURSORBLINKING is false
+    else {
+      cursor.setFillColor(sf::Color::White);
+    }
+
+    // Reset the cursorClock to 0 and switch the state of CURSORBLINKING
+    cursorClock.restart();
+    blinking();
+  }
 }
 
 // From SnapshotInterface

@@ -595,77 +595,29 @@ History.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/History.cpp.s
 .PHONY : History.cpp.s
 
-InputBox.o: InputBox.cpp.o
-.PHONY : InputBox.o
+KeyBoardShortCuts.o: KeyBoardShortCuts.cpp.o
+.PHONY : KeyBoardShortCuts.o
 
 # target to build an object file
-InputBox.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.o
-.PHONY : InputBox.cpp.o
+KeyBoardShortCuts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCuts.cpp.o
+.PHONY : KeyBoardShortCuts.cpp.o
 
-InputBox.i: InputBox.cpp.i
-.PHONY : InputBox.i
-
-# target to preprocess a source file
-InputBox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.i
-.PHONY : InputBox.cpp.i
-
-InputBox.s: InputBox.cpp.s
-.PHONY : InputBox.s
-
-# target to generate assembly for a file
-InputBox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBox.cpp.s
-.PHONY : InputBox.cpp.s
-
-InputBoxLabel.o: InputBoxLabel.cpp.o
-.PHONY : InputBoxLabel.o
-
-# target to build an object file
-InputBoxLabel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.o
-.PHONY : InputBoxLabel.cpp.o
-
-InputBoxLabel.i: InputBoxLabel.cpp.i
-.PHONY : InputBoxLabel.i
+KeyBoardShortCuts.i: KeyBoardShortCuts.cpp.i
+.PHONY : KeyBoardShortCuts.i
 
 # target to preprocess a source file
-InputBoxLabel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.i
-.PHONY : InputBoxLabel.cpp.i
+KeyBoardShortCuts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCuts.cpp.i
+.PHONY : KeyBoardShortCuts.cpp.i
 
-InputBoxLabel.s: InputBoxLabel.cpp.s
-.PHONY : InputBoxLabel.s
-
-# target to generate assembly for a file
-InputBoxLabel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/InputBoxLabel.cpp.s
-.PHONY : InputBoxLabel.cpp.s
-
-KeyBoardShortCutUndo.o: KeyBoardShortCutUndo.cpp.o
-.PHONY : KeyBoardShortCutUndo.o
-
-# target to build an object file
-KeyBoardShortCutUndo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCutUndo.cpp.o
-.PHONY : KeyBoardShortCutUndo.cpp.o
-
-KeyBoardShortCutUndo.i: KeyBoardShortCutUndo.cpp.i
-.PHONY : KeyBoardShortCutUndo.i
-
-# target to preprocess a source file
-KeyBoardShortCutUndo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCutUndo.cpp.i
-.PHONY : KeyBoardShortCutUndo.cpp.i
-
-KeyBoardShortCutUndo.s: KeyBoardShortCutUndo.cpp.s
-.PHONY : KeyBoardShortCutUndo.s
+KeyBoardShortCuts.s: KeyBoardShortCuts.cpp.s
+.PHONY : KeyBoardShortCuts.s
 
 # target to generate assembly for a file
-KeyBoardShortCutUndo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCutUndo.cpp.s
-.PHONY : KeyBoardShortCutUndo.cpp.s
+KeyBoardShortCuts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/KeyBoardShortCuts.cpp.s
+.PHONY : KeyBoardShortCuts.cpp.s
 
 MouseEvent.o: MouseEvent.cpp.o
 .PHONY : MouseEvent.o
@@ -763,6 +715,54 @@ States.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/States.cpp.s
 .PHONY : States.cpp.s
 
+TextBox.o: TextBox.cpp.o
+.PHONY : TextBox.o
+
+# target to build an object file
+TextBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBox.cpp.o
+.PHONY : TextBox.cpp.o
+
+TextBox.i: TextBox.cpp.i
+.PHONY : TextBox.i
+
+# target to preprocess a source file
+TextBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBox.cpp.i
+.PHONY : TextBox.cpp.i
+
+TextBox.s: TextBox.cpp.s
+.PHONY : TextBox.s
+
+# target to generate assembly for a file
+TextBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBox.cpp.s
+.PHONY : TextBox.cpp.s
+
+TextBoxLabel.o: TextBoxLabel.cpp.o
+.PHONY : TextBoxLabel.o
+
+# target to build an object file
+TextBoxLabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBoxLabel.cpp.o
+.PHONY : TextBoxLabel.cpp.o
+
+TextBoxLabel.i: TextBoxLabel.cpp.i
+.PHONY : TextBoxLabel.i
+
+# target to preprocess a source file
+TextBoxLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBoxLabel.cpp.i
+.PHONY : TextBoxLabel.cpp.i
+
+TextBoxLabel.s: TextBoxLabel.cpp.s
+.PHONY : TextBoxLabel.s
+
+# target to generate assembly for a file
+TextBoxLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextBoxLabel.cpp.s
+.PHONY : TextBoxLabel.cpp.s
+
 TextInput.o: TextInput.cpp.o
 .PHONY : TextInput.o
 
@@ -787,29 +787,29 @@ TextInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/TextInput.cpp.s
 .PHONY : TextInput.cpp.s
 
-Type.o: Type.cpp.o
-.PHONY : Type.o
+Typing.o: Typing.cpp.o
+.PHONY : Typing.o
 
 # target to build an object file
-Type.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.o
-.PHONY : Type.cpp.o
+Typing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Typing.cpp.o
+.PHONY : Typing.cpp.o
 
-Type.i: Type.cpp.i
-.PHONY : Type.i
+Typing.i: Typing.cpp.i
+.PHONY : Typing.i
 
 # target to preprocess a source file
-Type.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.i
-.PHONY : Type.cpp.i
+Typing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Typing.cpp.i
+.PHONY : Typing.cpp.i
 
-Type.s: Type.cpp.s
-.PHONY : Type.s
+Typing.s: Typing.cpp.s
+.PHONY : Typing.s
 
 # target to generate assembly for a file
-Type.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Type.cpp.s
-.PHONY : Type.cpp.s
+Typing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Typing.cpp.s
+.PHONY : Typing.cpp.s
 
 guiComponent.o: guiComponent.cpp.o
 .PHONY : guiComponent.o
@@ -908,15 +908,9 @@ help:
 	@echo "... History.o"
 	@echo "... History.i"
 	@echo "... History.s"
-	@echo "... InputBox.o"
-	@echo "... InputBox.i"
-	@echo "... InputBox.s"
-	@echo "... InputBoxLabel.o"
-	@echo "... InputBoxLabel.i"
-	@echo "... InputBoxLabel.s"
-	@echo "... KeyBoardShortCutUndo.o"
-	@echo "... KeyBoardShortCutUndo.i"
-	@echo "... KeyBoardShortCutUndo.s"
+	@echo "... KeyBoardShortCuts.o"
+	@echo "... KeyBoardShortCuts.i"
+	@echo "... KeyBoardShortCuts.s"
 	@echo "... MouseEvent.o"
 	@echo "... MouseEvent.i"
 	@echo "... MouseEvent.s"
@@ -929,12 +923,18 @@ help:
 	@echo "... States.o"
 	@echo "... States.i"
 	@echo "... States.s"
+	@echo "... TextBox.o"
+	@echo "... TextBox.i"
+	@echo "... TextBox.s"
+	@echo "... TextBoxLabel.o"
+	@echo "... TextBoxLabel.i"
+	@echo "... TextBoxLabel.s"
 	@echo "... TextInput.o"
 	@echo "... TextInput.i"
 	@echo "... TextInput.s"
-	@echo "... Type.o"
-	@echo "... Type.i"
-	@echo "... Type.s"
+	@echo "... Typing.o"
+	@echo "... Typing.i"
+	@echo "... Typing.s"
 	@echo "... guiComponent.o"
 	@echo "... guiComponent.i"
 	@echo "... guiComponent.s"

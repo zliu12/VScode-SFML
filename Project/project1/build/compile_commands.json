@@ -31,8 +31,8 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/KeyBoardShortCutUndo.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/KeyBoardShortCutUndo.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/KeyBoardShortCutUndo.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/KeyBoardShortCuts.cpp"
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
@@ -51,13 +51,13 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/InputBoxLabel.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/InputBoxLabel.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/TextBoxLabel.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/TextBoxLabel.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/TextBoxLabel.cpp"
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/InputBox.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/TextBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/TextBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/TextBox.cpp"
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
@@ -66,7 +66,7 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/project1/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/Type.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/Type.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/Type.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/project1.dir/Typing.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/project1/Typing.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/project1/Typing.cpp"
 }
 ]

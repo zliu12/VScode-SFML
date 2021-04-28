@@ -10,20 +10,26 @@
 // Default constructor
 TextInput::TextInput() {
   /* Text Input Box */
-  InputBox();
+  inputBox.setBoxSize(1750, 250);                   // Set size to 1500 x 1000
+  inputBox.setBoxPos(375, 250);                     // Set box position
+  inputBox.setBoxFilledColor(sf::Color::Black);     // Set filled color to black
+  inputBox.setBoxOutlineColor(sf::Color::White);    // Set outline color to white
+  inputBox.setBoxOutlineThickness(15);              // Set outline thickness
+
 
   /* Text Input Box Label */
-  InputBoxLabel();
+  inputBoxLabel.setLabelContent("TEXT INPUT BOX");  // Set label content
+  inputBoxLabel.setLabelSize(100);                  // Set label size
+  inputBoxLabel.setLabelPos(350, 120);              // Set label position
+
 
   /* Cursor */
-  Cursor();
-  setCursorPos(inputBox.getBoxPosX() + 25,
-               inputBox.getBoxPosY() + 
-               (inputBox.getBoxHeight() - cursor.getCursorHeight()) / 2);
+  cursor.setCursorSize(15, 200);                    // Set cursor size
+  cursor.setCursorColor(sf::Color::White);          // Set cursor color
+  setCursorPos(400, 275);                           // Set cursor initial position
 
   /* Typing */
-  Typing();
-  inputText.setCharPos(inputBox.getBoxPosX() + 25, inputBox.getBoxPosY());
+  inputText.setCharPos(400, 225);                   // Set typing initial position
 }
 
 /* Text Input Box */
@@ -92,31 +98,51 @@ void TextInput::setCursorColor(sf::Color color) {
 
 
 // Set isClicked to true
-void TextInput::clikeToEnable() {
-  if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) {
-    isClicked = true;
-  }
-}
+// void TextInput::clikeToEnable() {
+  // if (sf::Mouse::isButtonPressed(sf::Mouse::Button(sf::Mouse::Left))) {
+    // isClicked = true;
+  // }
+// }
 
 // Draw function
 void TextInput::draw(sf::RenderTarget& window, sf::RenderStates state) const {
-  inputBox.draw(window, state);
-  inputBoxLabel.draw(window, state);
-  inputText.draw(window, state);
-  cursor.draw(window,state);
+  window.draw(inputBoxLabel);
+  window.draw(inputBox);
+  window.draw(cursor);
+  window.draw(inputText);
+
+  // inputBox.draw(window, state);
+  // inputBoxLabel.draw(window, state);
+  // inputText.draw(window, state);
+  // cursor.draw(window,state);
 }
 
 // From EventHandler
 void TextInput::addEventHandler(sf::RenderWindow& window, sf::Event event) {
+  // If click anywhere outside the input box but inside the window, disable (false) HIDDEN
+  if (!MouseEvents<TextBox>::hovered(inputBox, window) && MouseEvents<TextBox>::mouseClicked(window, event)) {
+    States::disableState(States::HIDDEN);
+  }
+  // If click anywhere inside the text input box, enable (true) HIDDEN
+  else if (MouseEvents<TextBox>::mouseClicked(inputBox, window)) {
+    States::enableState(States::HIDDEN);
+  }
+
   inputText.addEventHandler(window, event);
 }
 
 void TextInput::update() {
-  inputText.update();
+  // setCursorPos(425 + inputText.getTxtWidth(), inputText.getTxtHeight() + (250 - cursor.getCursorHeight()) / 2);
   cursor.update();
-  setCursorPos(inputBox.getBoxPosX() + inputText.getTxtWidthBound() + 50,
-               inputBox.getBoxPosY() + 
-               (inputBox.getBoxHeight() - cursor.getCursorHeight()) / 2);
+  inputText.update();
+
+  if (inputText.getTxtWidth() + 125 > inputBox.getBoxWidth()) {
+    inputBox.setBoxSize(1750, 250 + inputText.getTxtHeight());
+  }
+
+  if (sf::Keyboard::isKeyPressed(sf::Keyboard::Return)) {
+    inputBox.setBoxSize(1750, 250 + inputText.getTxtHeight());
+  }
 }
 
 // From SnapshotInterface

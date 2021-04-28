@@ -14,7 +14,7 @@ class Cursor : public GuiComponent{
  private:
   sf::RectangleShape cursor;
   sf::Clock cursorClock;
-  bool isClicked;
+  float blinkTimeInterval = 0.4;
 
  public:
   // Default constructor
@@ -35,8 +35,8 @@ class Cursor : public GuiComponent{
   // Get cursor height
   float getCursorHeight();
 
-  // Check for the time elapsed and reset the clock
-  void checkAndReset();
+  // Check and switch the CURSORBLINKING (ObjectState)
+  void blinking();
   
   // From the sf::Drawable class
   virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;

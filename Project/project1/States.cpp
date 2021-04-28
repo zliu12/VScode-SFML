@@ -7,13 +7,17 @@
 #include "States.h"
 
 States::States() {
-  for (int i = 0; i < LASTSTATE; ++i) {
+  // ObjectState type loaded in the map, set to false by default
+  for (int i = HIDDEN; i < LASTSTATE; ++i) {
     states[static_cast<ObjectState>(i)] = false;
   }
 }
 
 bool States::checkIfStateEnabled(ObjectState state) {
+  // Use map::count() to check if ObjectState type state (the key) is present 
+  // in the map container (1 or 0)
   if (states.count(state) > 0) {
+    // Return the state (true or false) of ObjectState (HIDDEN, HIGHLIGHTED,DISABLED, etc)
     return states[state];
   }
   return false;

@@ -6,28 +6,29 @@
 
 #ifndef TEXTINPUT_H_
 #define TEXTINPUT_H_
-#include "guiComponent.h"             // SFML
-#include "InputBoxLabel.h"            // class InputBoxLabel
-#include "InputBox.h"                 // class TextInputBox
+#include "guiComponent.h"             // GUIComponent
+#include "TextBoxLabel.h"             // class InputBoxLabel
+#include "TextBox.h"                  // class TextInputBox
 #include "Cursor.h"                   // class Cursor
-#include "Type.h"                     // class Typing
-#include <string>                     // std::string
+#include "Typing.h"                   // class Typing
+#include "MouseEvent.h"               // class MouseEvents
 
 class TextInput : public GuiComponent {
  private:
-  InputBox inputBox;
-  InputBoxLabel inputBoxLabel;
+  TextBox inputBox;
+  TextBoxLabel inputBoxLabel;
   Cursor cursor;
   Typing inputText;
-  bool isClicked = true;
 
  public:
   // Default constructor
   TextInput();
 
+
   /* Typing */
   // Set typing font
   void setTypingFont();
+
 
   /* Text Input Box */
   // Set input box size

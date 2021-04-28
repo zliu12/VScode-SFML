@@ -4,9 +4,17 @@
  * Copyright (c) [2021], Zhao Liu.
  */
 
+/* 
+Undo part of the program
+Push snapshots to a stack whenever your object makes any changes, once undo is
+pressed, the stack will pop the snapshot and apply it back to the object.
+Holds all the undo history for the entir GUI library, so it will need to know which
+object the snapshot should be applied to
+ */
 #ifndef HISTORY_H_
 #define HISTORY_H_
 #include "Snapshot.h"
+#include "KeyBoardShortCuts.h"
 #include "guiComponent.h"
 #include <string>
 #include <stack>

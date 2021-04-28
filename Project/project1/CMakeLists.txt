@@ -11,14 +11,14 @@ add_executable(project1 main.cpp
               Snapshot.cpp Snapshot.h
               SnapshotInterface.cpp SnapshotInterface.h
               guiComponent.cpp guiComponent.h 
-              KeyBoardShortCutUndo.cpp KeyBoardShortCutUndo.h
+              KeyBoardShortCuts.cpp KeyBoardShortCuts.h
               MouseEvent.cpp MouseEvent.h
               History.cpp History.h
               TextInput.cpp TextInput.h
-              InputBoxLabel.cpp InputBoxLabel.h
-              InputBox.cpp InputBox.h
+              TextBoxLabel.cpp TextBoxLabel.h
+              TextBox.cpp TextBox.h
               Cursor.cpp Cursor.h
-              Type.cpp Type.h)
+              Typing.cpp Typing.h)
 
 target_link_libraries(project1 sfml-graphics sfml-audio)
 

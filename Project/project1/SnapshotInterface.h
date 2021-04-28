@@ -4,6 +4,9 @@
  * Copyright (c) [2021], Zhao Liu.
  */
 
+/* 
+Get a snapshot of an object as well as applying a snapshot to an object
+ */
 #ifndef SNAPSHOTINTERFACE_H_
 #define SNAPSHOTINTERFACE_H_
 
