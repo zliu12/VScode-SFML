@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/EventHandler.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/EventHandler.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/EventHandler.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/guiComponent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/guiComponent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/History.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/History.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/History.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/inputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/inputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/inputBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/KeyBoardShortCuts.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/MouseEvent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/MouseEvent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/MouseEvent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/DropDownMenu.dir/TextBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/TextBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/TextBox.cpp"
+}
+]

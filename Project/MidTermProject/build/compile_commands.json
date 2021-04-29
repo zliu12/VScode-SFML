@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/Cursor.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Cursor.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Cursor.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/EventHandler.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/EventHandler.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/EventHandler.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/guiComponent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/guiComponent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/History.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/History.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/History.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/KeyBoardShortCuts.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/MouseEvent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/MouseEvent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/MouseEvent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/Snapshot.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Snapshot.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Snapshot.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/SnapshotInterface.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/SnapshotInterface.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/SnapshotInterface.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/TextBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/TextBoxLabel.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextBoxLabel.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextBoxLabel.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/TextInput.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextInput.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/TextInput.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/MidTermProject.dir/Typing.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Typing.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MidTermProject/Typing.cpp"
+}
+]
