@@ -18,8 +18,8 @@ TextBoxLabel::TextBoxLabel() {
 
 // Load font
 void TextBoxLabel::loadFont() {
-  labelFont.loadFromFile("OpenSans-Bold copy.ttf");
-  if (!labelFont.loadFromFile("OpenSans-Bold copy.ttf")) {
+  labelFont.loadFromFile("OpenSans-Bold.ttf");
+  if (!labelFont.loadFromFile("OpenSans-Bold.ttf")) {
     std::cout << "Fail to load label font." << std::endl;
     return;
   }

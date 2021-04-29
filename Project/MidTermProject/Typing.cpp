@@ -19,8 +19,8 @@ Typing::Typing() {
 
 // Load font
 void Typing::loadTypingFont() {
-  typingfont.loadFromFile("OpenSans-Bold copy.ttf");
-  if (!typingfont.loadFromFile("OpenSans-Bold copy.ttf")) {
+  typingfont.loadFromFile("OpenSans-Bold.ttf");
+  if (!typingfont.loadFromFile("OpenSans-Bold.ttf")) {
     std::cout << "Fail to load typing font." << std::endl;
     return;
   }
