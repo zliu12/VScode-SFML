@@ -19,7 +19,7 @@ class States {
  public:
   // Enum holds all the different types of states available, all false by default
   enum ObjectState {
-    HIDDEN, HIGHLIGHTED, DISABLED, CURSORBLINKING,
+    HIDDEN, HIGHLIGHTED, DISABLED, CURSORBLINKING, BACKGROUNDCOLORED, NEWTXT,
     // This should always be the last state, hold the number of ObjectState
     LASTSTATE
   };
@@ -27,7 +27,7 @@ class States {
   // Default constructor
   States();
   // Check if a particular state is enabled
-  bool checkIfStateEnabled(ObjectState state);
+  bool checkIfStateEnabled(ObjectState state) ;
   // Enable a particular state (enum type)
   void enableState(ObjectState state);
   // Disable a particular state (enum type)

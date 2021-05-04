@@ -56,7 +56,7 @@ bool MouseEvents<T>::draggedOver(T& object, sf::RenderWindow& window, sf::Event 
 template <class T>
 bool MouseEvents<T>::hovered(T& object, sf::RenderWindow& window) {
   sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-  std::cout << mousePos.x << " " << std::cout << mousePos.y << std::endl;
+  // std::cout << mousePos.x << " " << std::cout << mousePos.y << std::endl;
   if (object.getGlobalBounds().contains(mousePos.x, mousePos.y)) {
     return true;
   }

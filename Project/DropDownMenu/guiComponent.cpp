@@ -6,4 +6,4 @@
 
 #include "guiComponent.h"
 
-/* Implementation is intentionally empty */
+/* This implementation is created to be empty intentionally.*/

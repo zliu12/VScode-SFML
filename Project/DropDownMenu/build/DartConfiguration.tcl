@@ -63,7 +63,7 @@ UpdateType:
 
 # Compiler info
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
-CompilerVersion: 12.0.0.12000032
+CompilerVersion: 12.0.5.12050022
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
