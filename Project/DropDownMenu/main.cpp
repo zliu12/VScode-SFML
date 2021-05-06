@@ -3,22 +3,24 @@
 #include "Item.h"
 #include "ItemList.h"
 #include "DropDownMenu.h"
+#include "States.h"
 #include <iostream>
 #include <vector>
 #include <string>
 
-int main(int, char**) {
+int main() {
 	// Create the window
 	sf::RenderWindow win(sf::VideoMode(2500, 1500), "Drop Down Menu");
 	// Set window position
 	win.setPosition(sf::Vector2i(180, 100));
 
-	DropDownMenu menu;
+	std::vector<std::string> vec{"Option1", "Option2", "Option3", "Option4", "Option5"};
+	DropDownMenu menu(vec);
 
 	// Test itemList
-	std::vector<std::string> vec{"Option1", "Option2", "Option3"};
-	ItemList itemList(vec);
-	ItemList itemList2;
+	// ItemList itemList(vec);
+	// InputBox inputBox;
+	// Item item;
 
 	// While window is open
 	while(win.isOpen()) {
@@ -28,14 +30,30 @@ int main(int, char**) {
 				win.close();
 			}
 			menu.addEventHandler(win, event);
-		}
+			// itemList.addEventHandler(win, event);		// work
+			// inputBox.addEventHandler(win, event);		// may work
+			// item.addEventHandler(win, event);
+		}	
 
 		menu.update();
 		win.clear();
 		win.draw(menu);
-		// win.draw(itemList);
-		// win.draw(itemList2);
 		win.display();
+
+		// itemList.update();			// work
+		// win.clear();
+		// win.draw(itemList);			
+		// win.display();
+
+		// inputBox.update();			// may work
+		// win.clear();
+		// win.draw(inputBox);
+		// win.display();
+
+		// item.update();
+		// win.clear();
+		// win.draw(item);
+		// win.display();
 	}
 
 	return 0;

@@ -21,6 +21,7 @@ add_executable(DropDownMenu main.cpp
                projectFont.cpp projectFont.h
                Snapshot.cpp Snapshot.h
                SnapshotInterface.cpp SnapshotInterface.h
+               States2.cpp States2.h
                States.cpp States.h)
 
 target_link_libraries(DropDownMenu sfml-graphics sfml-audio)

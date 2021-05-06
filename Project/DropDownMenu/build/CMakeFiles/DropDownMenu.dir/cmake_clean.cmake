@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o.d"
   "CMakeFiles/DropDownMenu.dir/States.cpp.o"
   "CMakeFiles/DropDownMenu.dir/States.cpp.o.d"
+  "CMakeFiles/DropDownMenu.dir/States2.cpp.o"
+  "CMakeFiles/DropDownMenu.dir/States2.cpp.o.d"
   "CMakeFiles/DropDownMenu.dir/guiComponent.cpp.o"
   "CMakeFiles/DropDownMenu.dir/guiComponent.cpp.o.d"
   "CMakeFiles/DropDownMenu.dir/linkedList.cpp.o"

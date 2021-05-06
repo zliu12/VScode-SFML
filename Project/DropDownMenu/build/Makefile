@@ -835,6 +835,30 @@ States.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/States.cpp.s
 .PHONY : States.cpp.s
 
+States2.o: States2.cpp.o
+.PHONY : States2.o
+
+# target to build an object file
+States2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/States2.cpp.o
+.PHONY : States2.cpp.o
+
+States2.i: States2.cpp.i
+.PHONY : States2.i
+
+# target to preprocess a source file
+States2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/States2.cpp.i
+.PHONY : States2.cpp.i
+
+States2.s: States2.cpp.s
+.PHONY : States2.s
+
+# target to generate assembly for a file
+States2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/States2.cpp.s
+.PHONY : States2.cpp.s
+
 guiComponent.o: guiComponent.cpp.o
 .PHONY : guiComponent.o
 
@@ -1010,6 +1034,9 @@ help:
 	@echo "... States.o"
 	@echo "... States.i"
 	@echo "... States.s"
+	@echo "... States2.o"
+	@echo "... States2.i"
+	@echo "... States2.s"
 	@echo "... guiComponent.o"
 	@echo "... guiComponent.i"
 	@echo "... guiComponent.s"

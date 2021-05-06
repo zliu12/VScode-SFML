@@ -19,23 +19,30 @@ class States {
  public:
   // Enum holds all the different types of states available, all false by default
   enum ObjectState {
-    HIDDEN, HIGHLIGHTED, DISABLED, CURSORBLINKING, BACKGROUNDCOLORED, NEWTXT,
+    Hidden, Highlighted, Disabled, CursorBlinking, InputBoxBackgroudColor, 
+    ItemListHidden, ItemBoxClicked, ItemTxtClicked, 
     // This should always be the last state, hold the number of ObjectState
-    LASTSTATE
+    OBJECTLASTSTATE
   };
 
   // Default constructor
   States();
-  // Check if a particular state is enabled
-  bool checkIfStateEnabled(ObjectState state) ;
-  // Enable a particular state (enum type)
-  void enableState(ObjectState state);
-  // Disable a particular state (enum type)
-  void disableState(ObjectState state);
+
+  // Check if a particular ObjectState state is enabled
+  static bool isObjStateEnabled(ObjectState state);
+
+  // Enable a particular state (enum ObjectState type)
+  static void enableObjState(ObjectState state);
+
+  // Disable a particular state (enum ObjectState type)
+  static void disableObjState(ObjectState state);
 
  private:
-  // Store all the various states an object can hold
-  std::map<ObjectState, bool> states;
+  // Store states an object(except type Item) can hold
+  static std::map<ObjectState, bool> objStates;
+
+  
 };
+
 
 #endif  // STATES_H_

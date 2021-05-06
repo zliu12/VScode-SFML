@@ -14,11 +14,17 @@ template<class T>
 NodeIterator<T>::NodeIterator() {
   currentNode = nullptr;
 }
-  
+
 // Customized constructor
 template<class T>
 NodeIterator<T>::NodeIterator(Node<T>* nodeAssignedToCurrentNode) {
   currentNode = nodeAssignedToCurrentNode;
+}
+
+// Access the currentNode
+template<class T>
+Node<T>* NodeIterator<T>::getCurrentNode() {
+  return currentNode;
 }
 
 // Overload prefix++

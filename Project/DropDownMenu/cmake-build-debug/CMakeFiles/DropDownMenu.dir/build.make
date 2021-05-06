@@ -245,9 +245,22 @@ CMakeFiles/DropDownMenu.dir/NodeIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DropDownMenu.dir/NodeIterator.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/NodeIterator.cpp -o CMakeFiles/DropDownMenu.dir/NodeIterator.cpp.s
 
+CMakeFiles/DropDownMenu.dir/projectFont.cpp.o: CMakeFiles/DropDownMenu.dir/flags.make
+CMakeFiles/DropDownMenu.dir/projectFont.cpp.o: ../projectFont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DropDownMenu.dir/projectFont.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DropDownMenu.dir/projectFont.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/projectFont.cpp
+
+CMakeFiles/DropDownMenu.dir/projectFont.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DropDownMenu.dir/projectFont.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/projectFont.cpp > CMakeFiles/DropDownMenu.dir/projectFont.cpp.i
+
+CMakeFiles/DropDownMenu.dir/projectFont.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DropDownMenu.dir/projectFont.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/projectFont.cpp -o CMakeFiles/DropDownMenu.dir/projectFont.cpp.s
+
 CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o: CMakeFiles/DropDownMenu.dir/flags.make
 CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o: ../Snapshot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/Snapshot.cpp
 
 CMakeFiles/DropDownMenu.dir/Snapshot.cpp.i: cmake_force
@@ -260,7 +273,7 @@ CMakeFiles/DropDownMenu.dir/Snapshot.cpp.s: cmake_force
 
 CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o: CMakeFiles/DropDownMenu.dir/flags.make
 CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o: ../SnapshotInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/SnapshotInterface.cpp
 
 CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.i: cmake_force
@@ -273,7 +286,7 @@ CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.s: cmake_force
 
 CMakeFiles/DropDownMenu.dir/States.cpp.o: CMakeFiles/DropDownMenu.dir/flags.make
 CMakeFiles/DropDownMenu.dir/States.cpp.o: ../States.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DropDownMenu.dir/States.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DropDownMenu.dir/States.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DropDownMenu.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.cpp
 
 CMakeFiles/DropDownMenu.dir/States.cpp.i: cmake_force
@@ -299,6 +312,7 @@ DropDownMenu_OBJECTS = \
 "CMakeFiles/DropDownMenu.dir/MouseEvent.cpp.o" \
 "CMakeFiles/DropDownMenu.dir/Node.cpp.o" \
 "CMakeFiles/DropDownMenu.dir/NodeIterator.cpp.o" \
+"CMakeFiles/DropDownMenu.dir/projectFont.cpp.o" \
 "CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o" \
 "CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o" \
 "CMakeFiles/DropDownMenu.dir/States.cpp.o"
@@ -319,6 +333,7 @@ DropDownMenu: CMakeFiles/DropDownMenu.dir/linkedList.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/MouseEvent.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/Node.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/NodeIterator.cpp.o
+DropDownMenu: CMakeFiles/DropDownMenu.dir/projectFont.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/Snapshot.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/SnapshotInterface.cpp.o
 DropDownMenu: CMakeFiles/DropDownMenu.dir/States.cpp.o
@@ -328,7 +343,7 @@ DropDownMenu: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
 DropDownMenu: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 DropDownMenu: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 DropDownMenu: CMakeFiles/DropDownMenu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable DropDownMenu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable DropDownMenu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DropDownMenu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

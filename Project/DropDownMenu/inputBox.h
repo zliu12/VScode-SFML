@@ -13,6 +13,7 @@ Box on the top
 
 #include "SFML/Graphics.hpp"
 #include <vector>
+#include <string>
 #include "guiComponent.h"
 #include "MouseEvent.h"
 #include "States.h"
@@ -22,13 +23,13 @@ Box on the top
 class InputBox : public sf::RectangleShape, public States {
  private:
   sf::RectangleShape topBox;
-  Item item;
-  ItemList itemList;
   sf::Text defaultTxt;
   sf::Font defaultTxtFont;
-  void topBoxCenterTxt();
 
  public:
+  // Make the defaultTxt in the center of the topBox
+  void topBoxCenterTxt();
+
   // Default constructor
   InputBox();
 
@@ -50,18 +51,15 @@ class InputBox : public sf::RectangleShape, public States {
   // Set input box margin size
   void setInputBoxMarginSize(const float &marginSize);
 
+  // Change default txt
+  void modifyDefaultTxt(std::string newStr);
+
   // From the sf::Drawable class
   void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 
   // From EventHandler
   void addEventHandler(sf::RenderWindow& window, sf::Event event);
   void update();
-
-  /*
-  // From SnapshotInterface
-  Snapshot& getSnapshot();
-  void applySnapshot(const Snapshot& snapshot);
-  */
 };
 
 #endif  // INPUTBOX_H_

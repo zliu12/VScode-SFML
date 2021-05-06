@@ -306,5 +306,6 @@ CMakeFiles/DropDownMenu.dir/guiComponent.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States2.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/Snapshot.h

@@ -22,6 +22,9 @@ ItemList::ItemList(std::vector<std::string> strVec) {
   for(int i = 0; i < strVec.size(); ++i) {
     addItem(strVec.at(i));
   }
+
+  /* Set HIDDEN */
+  // States::enableState(States::HIDDEN);            // Set HIDDEN true
 }
 
 // Add item
@@ -37,7 +40,6 @@ void ItemList::addItem(sf::String str) {
 
   // Set the string content of the added item
   itemAdded.setItemStr(str);
-  itemAdded.setTxtColor(sf::Color::White);
   itemAdded.itemCenterTxt();
 
   // Insert the itemAdded into the list_item
@@ -60,7 +62,7 @@ void ItemList::setOutlineColor(sf::Color color) {
 // From the sf::Drawable class
 void ItemList::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   // Draw the item list box
-  window.draw(dropDownBox);
+  // window.draw(dropDownBox);
 
   // Create a list iterator
   linkedList<Item>::iterator list_iter = list_item.begin();
@@ -73,22 +75,19 @@ void ItemList::draw(sf::RenderTarget& window, sf::RenderStates states) const {
 
 // From EventHandler
 void ItemList::addEventHandler(sf::RenderWindow& window, sf::Event event) {
-  // Hover over the itemBox, itemBox fill color becomes blue
-  if(MouseEvents<sf::RectangleShape>::hovered((*iter), window)) {
-    States::enableState(States::BACKGROUNDCOLORED);
+  linkedList<Item>::iterator list_iter = list_item.begin();
+  while(list_iter != list_item.end()) {
+    (*list_iter).addEventHandler(window, event);
+    currentItemTxt = list_iter.getCurrentNode()->data.getItemTxt();
+    ++list_iter;
   }
-  else {
-    States::disableState(States::BACKGROUNDCOLORED);
-  }
-  
-  item.addEventHandler(window, event);
 }
 
 void ItemList::update() {
-  item.update();
+  linkedList<Item>::iterator list_iter = list_item.begin();
+  while(list_iter != list_item.end()) {
+  (*list_iter).update();
+  ++list_iter;
+  }  
+  // std::cout << "ItemList: itemlist.update" << std::endl;
 }
-
- // From SnapshotInterface
-Snapshot& ItemList::getSnapshot() {}
-
-void ItemList::applySnapshot(const Snapshot& snapshot) {}

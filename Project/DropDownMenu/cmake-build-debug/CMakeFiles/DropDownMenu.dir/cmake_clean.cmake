@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DropDownMenu.dir/guiComponent.cpp.o"
   "CMakeFiles/DropDownMenu.dir/linkedList.cpp.o"
   "CMakeFiles/DropDownMenu.dir/main.cpp.o"
+  "CMakeFiles/DropDownMenu.dir/projectFont.cpp.o"
   "DropDownMenu"
   "DropDownMenu.pdb"
 )

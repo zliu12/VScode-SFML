@@ -23,12 +23,6 @@ InputBox::InputBox() {
   topBox.setOutlineColor(sf::Color::White);       // Set top box outline color
   topBox.setPosition(sf::Vector2f(500, 100));     // Set top box posistion (500, 200)
 
-  /* itemList */
-  ItemList();
-
-  /* Set HIDDEN */
-  States::enableState(States::HIDDEN);            // Set HIDDEN true
-
   /* Menu txt */
   loadDefaultTxtFont();
   defaultTxt.setFont(defaultTxtFont);             // Set default text font
@@ -70,47 +64,36 @@ void InputBox::setInputBoxMarginSize(const float &marginSize) {
   topBox.setOutlineThickness(marginSize);
 }
 
+// Change default txt
+void InputBox::modifyDefaultTxt(std::string newStr) {
+  defaultTxt.setString(newStr);
+}
+
 // From the sf::Drawable class
 void InputBox::draw(sf::RenderTarget& window, sf::RenderStates states) const {
- window.draw(topBox);
- window.draw(defaultTxt);
- window.draw(item);
- window.draw(itemList);
+  window.draw(topBox);
+  window.draw(defaultTxt);
 }
 
 // From EventHandler
 void InputBox::addEventHandler(sf::RenderWindow& window, sf::Event event) {
+  // If click the input box
   if(MouseEvents<sf::RectangleShape>::mouseClicked(topBox, window)) {
-    States::disableState(States::HIDDEN);             // Make HIDDEN false
+    States::disableObjState(States::ItemListHidden);         // Make ItemListHidden false
+    States::enableObjState(States::InputBoxBackgroudColor);  // Make InputBoxBackgroudColor true
   }
+  // If click other window areas
   else if(MouseEvents<sf::Window>::mouseClicked(window, event)) {
-    States::enableState(States::HIDDEN);              // Make HIDDEN true
+    States::enableObjState(States::ItemListHidden);          // Make ItemListHidden true
+    States::disableObjState(States::InputBoxBackgroudColor); // Make InputBoxBackgroudColor false
   }
-
-  item.addEventHandler(window, event);
 }
 
 void InputBox::update() {
-  if(States::checkIfStateEnabled(States::HIDDEN)) {   // HIDDEN true
-    topBox.setFillColor(sf::Color::Transparent); 
-    item.setOutlineColor(sf::Color::Transparent);
-    item.setTxtColor(sf::Color::Transparent);
-    itemList.setOutlineColor(sf::Color::Transparent);
+  if(States::isObjStateEnabled(States::ObjectState::InputBoxBackgroudColor)) {   // InputBoxBackgroudColor true
+    topBox.setFillColor(sf::Color::Blue);             // topBox blue
   }
-  else {                                              // HIDDEN false
-    topBox.setFillColor(sf::Color::Blue); 
-    item.setOutlineColor(sf::Color::White);
-    item.setTxtColor(sf::Color::White);
-    itemList.setOutlineColor(sf::Color::White);
-    item.update();
-  }
-
-  if(States::checkIfStateEnabled(States::NEWTXT)) {   // newTxt true
-    // defaultTxt.setString(item.getStr());
-    topBox.setFillColor(sf::Color::Green);
+  else {                                              // InputBoxBackgroudColor false
+    topBox.setFillColor(sf::Color::Transparent);      // topBox transparent
   }
 }
-
-// From SnapshotInterface
-// Snapshot& InputBox::getSnapshot() {}
-// void InputBox::applySnapshot(const Snapshot& snapshot) {}

@@ -81,6 +81,11 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu.dir/States2.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States2.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States2.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/build",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.cpp",
   "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.cpp"
 }

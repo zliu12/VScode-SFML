@@ -6,27 +6,34 @@
 
 #include "States.h"
 
+// Store states an object(except type Item) can hold
+std::map<States::ObjectState, bool> States::objStates;
+
+// Default constructor
 States::States() {
-  // ObjectState type loaded in the map, set to false by default
-  for (int i = HIDDEN; i < LASTSTATE; ++i) {
-    states[static_cast<ObjectState>(i)] = false;
+  // Initialize ObjectState to false
+  for(int i = Hidden; i < OBJECTLASTSTATE; ++i) {
+    objStates[static_cast<ObjectState>(i)] = false;
   }
 }
 
-bool States::checkIfStateEnabled(ObjectState state) {
+// Check if a particular ObjectState state is enabled
+bool States::isObjStateEnabled(ObjectState state) {
   // Use map::count() to check if ObjectState type state (the key) is present 
   // in the map container (1 or 0)
-  if (states.count(state) > 0) {
-    // Return the state (true or false) of ObjectState (HIDDEN, HIGHLIGHTED,DISABLED, etc)
-    return states[state];
+  if(objStates.count(state) > 0) {
+    // Return the state (true or false) of ObjectState states
+    return objStates[state];
   }
   return false;
 }
 
-void States::enableState(ObjectState state) {
-  states[state] = true;
+// Enable a particular state (enum ObjectState type)
+void States::enableObjState(ObjectState state) {
+  objStates[state] = true;
 }
 
-void States::disableState(ObjectState state) {
-  states[state] = false;
+// Disable a particular state (enum ObjectState type)
+void States::disableObjState(ObjectState state) {
+  objStates[state] = false;
 }

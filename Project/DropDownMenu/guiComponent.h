@@ -10,10 +10,12 @@
 #include "SFML/Graphics.hpp"
 #include "EventHandler.h"
 #include "States.h"
+#include "States2.h"
 #include "SnapshotInterface.h"
 
 class GuiComponent : public EventHandler,
                      public States,
+                     public ItemStates,
                      public SnapshotInterface,
                      public sf::Drawable,
                      public sf::Transformable {

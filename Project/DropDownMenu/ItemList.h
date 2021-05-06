@@ -17,11 +17,11 @@ box
 #include <vector>
 #include <string>
 
-class ItemList : public States, public sf:: {
+class ItemList : public Item {
  private:
   linkedList<Item> list_item;
   linkedList<Item>::iterator list_iter;
-  Item item;
+  sf::String currentItemTxt;
   sf::RectangleShape dropDownBox;
   int itemAddedCount = 0;
 
@@ -32,6 +32,10 @@ class ItemList : public States, public sf:: {
 
   // Customized constructor
   ItemList(std::vector<std::string> strVec);
+
+  sf::String getCurrentItemTxt() {
+    return currentItemTxt;
+  }
 
   // Add item (sf::String)
   void addItem(sf::String str);
@@ -50,8 +54,8 @@ class ItemList : public States, public sf:: {
   void update();
 
   // From SnapshotInterface
-  Snapshot& getSnapshot();
-  void applySnapshot(const Snapshot& snapshot);
+  // Snapshot& getSnapshot();
+  // void applySnapshot(const Snapshot& snapshot);
 };
 
 #endif  // ITEMLIST_H_

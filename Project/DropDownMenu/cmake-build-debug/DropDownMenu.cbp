@@ -233,6 +233,12 @@
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/main.cpp">
 			<Option target="DropDownMenu"/>
 		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/projectFont.cpp">
+			<Option target="DropDownMenu"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/projectFont.h">
+			<Option target="DropDownMenu"/>
+		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

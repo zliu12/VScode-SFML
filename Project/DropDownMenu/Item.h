@@ -15,12 +15,12 @@ the background color to a different color
 #include "MouseEvent.h"
 #include "guiComponent.h"
 #include "States.h"
+#include "States2.h"
 #include "projectFont.h"
 #include <string>
 
 class Item : public GuiComponent {
  private:
-  sf::Font itemFont;
   sf::Text itemTxt;
   sf::RectangleShape itemBox;
 
@@ -49,17 +49,13 @@ class Item : public GuiComponent {
   // Set the size of item box
   void setItemBoxSize(float x, float y);
 
-  // Get the sf::String of itemTxt
-  sf::String getStr();
-
   // Set the std::string of itemTxt
   void setItemStr(sf::String str);
 
-  // Load itemTxt font
-  void loadItemFont();
-
-  // Set itemTxt font
-  void setItemTxtFont(sf::Font font);
+  // Get the itemTxt
+  sf::String getItemTxt() {
+    return itemTxt.getString();
+  }
 
   // Get the difference between item itemTxt height and item box height
   float getHeightDifference();

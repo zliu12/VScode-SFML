@@ -22,6 +22,9 @@ class NodeIterator {
   // Customized constructor
   NodeIterator(Node<T>* nodeAssignedToCurrentNode);
 
+  // Access the currentNode
+  Node<T>* getCurrentNode();
+
   // Overload prefix++
   NodeIterator<T>& operator++();
 

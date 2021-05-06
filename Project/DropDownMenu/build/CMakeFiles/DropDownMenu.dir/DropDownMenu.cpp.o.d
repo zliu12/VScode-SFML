@@ -307,8 +307,13 @@ CMakeFiles/DropDownMenu.dir/DropDownMenu.cpp.o: \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/guiComponent.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/States2.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/Snapshot.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/KeyBoardShortCuts.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/History.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/InputBox.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/MouseEvent.h \
   /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/MouseEvent.cpp \

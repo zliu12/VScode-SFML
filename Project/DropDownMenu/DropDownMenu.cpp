@@ -7,37 +7,52 @@
 #include "DropDownMenu.h"
 #include <iostream>
 
-void DropDownMenu::initialize() {
-
-}
-
-DropDownMenu::DropDownMenu() {
-  /* top box */
-  topBox.setSize(sf::Vector2f(1500, 200));        // Set top box size 1500 x 200
-  topBox.setPosition(sf::Vector2f(500, 100));     // Set top box posistion (500, 200)
-
-  /* itemsBox(drop down box) */
-  itemsBox.setDropDownBoxSize(1500, 1000);      // Set itemsBox size 1500x1000
-  itemsBox.setPosition(sf::Vector2f(500, 310));    // Set itemsbox posistion
-}
+DropDownMenu::DropDownMenu() {}
 
 DropDownMenu::DropDownMenu(std::vector<std::string> items) {
+  // Initialize the drop down menu with items provided
+  for(int i = 0; i < items.size(); ++i) {
+    itemList.addItem(items.at(i));
+  }
 
+  /* Initial state */
+  States::enableObjState(States::ItemListHidden);          // ItemListHidden true
+  States::disableObjState(States::InputBoxBackgroudColor); // InputBoxBackgroudColor false
 }
 
 // From the sf::Drawable class
 void DropDownMenu::draw(sf::RenderTarget& window, sf::RenderStates states) const {
-  window.draw(topBox);
+  window.draw(inputBox);
+  if(!States::isObjStateEnabled(States::ObjectState::ItemListHidden)) {  // ItemListHidden false
+    window.draw(itemList);                                              // draw itemList
+  }
 }
 
 // From EventHandler
 void DropDownMenu::addEventHandler(sf::RenderWindow& window, sf::Event event) {
-  topBox.addEventHandler(window, event);
+  // if(KeyBoardShortCuts::isUndo()) {     // Undo
+    // History::topHistory();              // Return the last pushed
+    // History::popHistory();              // Abandon the last pushed
+  // }
+  
+  itemList.addEventHandler(window, event);
+  inputBox.addEventHandler(window, event);
 }
 
 
 void DropDownMenu::update() {
-  topBox.update();
+  inputBox.update();
+  if(!States::isObjStateEnabled(States::ItemListHidden)) {    // ItemListHidden false
+    itemList.update();                                        // update itemList
+    // std::cout << "itemlist.update" << std::endl;
+  }
+
+  if(States::isObjStateEnabled(States::ItemBoxClicked) ||
+     States::isObjStateEnabled(States::ItemTxtClicked)) {
+      //  inputBox.modifyDefaultTxt("test5");
+       inputBox.modifyDefaultTxt(itemList.getCurrentItemTxt());
+       inputBox.topBoxCenterTxt();
+     }
 }
 
 // From SnapshotInterface

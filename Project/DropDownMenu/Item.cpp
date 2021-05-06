@@ -5,14 +5,13 @@
  */
 
 #include "Item.h"
-#include <cstdlib>
 #include <iostream>
 
 // Default constructor
 Item::Item() {
   /* Item box */
   itemBox.setFillColor(sf::Color::Transparent);       // Set item box fill color
-  itemBox.setSize(sf::Vector2f(1400, 200));           // Set item box size 1500 x 200
+  itemBox.setSize(sf::Vector2f(1500, 200));           // Set item box size 1500 x 200
   itemBox.setOutlineThickness(5);                     // Set outline thickness
   itemBox.setOutlineColor(sf::Color::White);           // Set outline color
   itemBox.setPosition(sf::Vector2f(500, 310));        // Set item box position
@@ -20,6 +19,9 @@ Item::Item() {
   /* Item txt */
   itemTxt.setFont(projectFont::getFont());
   itemTxt.setCharacterSize(itemBox.getGlobalBounds().height * 0.75);
+  itemTxt.setFillColor(sf::Color::White);
+
+  // ItemStates::disableItemState(ItemState::ItemBackgroundColor);
 }
 
 // Make the itemTxt in the center
@@ -59,31 +61,11 @@ void Item::setItemBoxSize(float x, float y) {
   itemBox.setSize(sf::Vector2f(x, y));
 }
 
-// Get the sf::String of itemTxt
-sf::String Item::getStr() {
-  return itemTxt.getString();
-}
-
 // Set the std::string of itemTxt
 void Item::setItemStr(sf::String str) {
   itemTxt.setString(str);
-  std::string data = str;
-  std::cout << data << std::endl;
-}
-
-// Load itemTxt font
-void Item::loadItemFont() {
-  if(itemFont.loadFromFile("OpenSans-Bold.ttf")) {
-    itemTxt.setFont(itemFont);
-  }
-  else {
-    std::cout << "Fail to load item font." << std::endl;
-  }
-}
-
-// Set itemTxt font
-void Item::setItemTxtFont(sf::Font font) {
-  itemTxt.setFont(font);
+  // std::string txtStr = str;
+  // std::cout << txtStr << std::endl;
 }
 
 // Set the item txt position
@@ -110,25 +92,34 @@ void Item::draw(sf::RenderTarget& window, sf::RenderStates states) const {
 void Item::addEventHandler(sf::RenderWindow& window, sf::Event event) {
   // Hover over the itemBox, itemBox fill color becomes blue
   if(MouseEvents<sf::RectangleShape>::hovered(itemBox, window)) {
-    States::enableState(States::BACKGROUNDCOLORED);
+    ItemStates::enableItemState(ItemStates::ItemBackgroundColor);  // ItemBackgroundColor true
+  }
+  else if(MouseEvents<sf::Text>::hovered(itemTxt, window)) {
+    ItemStates::enableItemState(ItemStates::ItemBackgroundColor);  // ItemBackgroundColor true
   }
   else {
-    States::disableState(States::BACKGROUNDCOLORED);
+    ItemStates::disableItemState(ItemStates::ItemBackgroundColor); // ItemBackgroundColor false
   }
 
-  // Click the item box, itemTxt in item box becomes the one being clicked
-  if(MouseEvents<sf::RectangleShape>::mouseClicked(itemBox, window)) {
-    States::enableState(States::NEWTXT);
+  // Click the itemTxt or the itemBox to turn either ItemTxtClicked or ItemBoxClicked
+  // true, to turn ItemListHidden true
+  if(MouseEvents<sf::Text>::mouseClicked(itemTxt, window)) {    // Click item txt
+    States::enableObjState(States::ItemTxtClicked);             // ItemTxtClicked true
+    States::enableObjState(States::ItemListHidden);             // ItemListHidden true
+  } 
+  else if(MouseEvents<sf::RectangleShape>::mouseClicked(itemBox, window)) { // Click item box
+    States::enableObjState(States::ItemBoxClicked);             // ItemBoxClicked true
+    States::enableObjState(States::ItemListHidden);             // ItemListHidden true
   }
 }
 
 void Item::update() {
-  if(States::checkIfStateEnabled(States::BACKGROUNDCOLORED)) {  // BACKGROUNDCOLORED true
-    itemBox.setFillColor(sf::Color::Blue);
-  }
-  else {                                                        // BACKGROUNDCOLORED false
-    itemBox.setFillColor(sf::Color::Transparent);
-  }              
+    if(ItemStates::isItemStateEnabled(ItemStates::ItemBackgroundColor)) {  // ItemBackgroundColor true
+      itemBox.setFillColor(sf::Color::Blue);            // item box blue
+    }
+    else {                                              // ItemBackgroundColor false
+      itemBox.setFillColor(sf::Color::Transparent);     // item box transparent
+    }
 }
 
 // From SnapshotInterface

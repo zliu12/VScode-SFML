@@ -12,26 +12,23 @@ select item, when select item, the input list disappear
 
 #ifndef DROPDOWNMENU_H_
 #define DROPDOWNMENU_H_
-
 #include "SFML/Graphics.hpp"
 #include "guiComponent.h"
+#include "KeyBoardShortCuts.h"
+#include "History.h"
 #include "InputBox.h"
-#include "Item.h"
 #include "ItemList.h"
 #include <vector>
 #include <string>
 
 class DropDownMenu : public GuiComponent {
  private:
-  InputBox topBox;
-  Item itemBox;
-  ItemList itemsBox;
-  void initialize();
+  InputBox inputBox;
+  ItemList itemList;
  
  public:
   DropDownMenu();
   DropDownMenu(std::vector<std::string> items);
-  // virtual sf::FloatRect getGlobalBound();
 
   // From the sf::Drawable class
   virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;

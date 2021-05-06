@@ -971,6 +971,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+projectFont.o: projectFont.cpp.o
+
+.PHONY : projectFont.o
+
+# target to build an object file
+projectFont.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/projectFont.cpp.o
+.PHONY : projectFont.cpp.o
+
+projectFont.i: projectFont.cpp.i
+
+.PHONY : projectFont.i
+
+# target to preprocess a source file
+projectFont.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/projectFont.cpp.i
+.PHONY : projectFont.cpp.i
+
+projectFont.s: projectFont.cpp.s
+
+.PHONY : projectFont.s
+
+# target to generate assembly for a file
+projectFont.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DropDownMenu.dir/build.make CMakeFiles/DropDownMenu.dir/projectFont.cpp.s
+.PHONY : projectFont.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1059,6 +1086,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... projectFont.o"
+	@echo "... projectFont.i"
+	@echo "... projectFont.s"
 .PHONY : help
 
 
