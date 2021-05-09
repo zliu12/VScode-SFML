@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/DropDownMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/DropDownMenu.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/DropDownMenu.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/EventHandler.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/EventHandler.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/EventHandler.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/History.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/History.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/History.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/Item.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Item.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Item.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/ItemList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/ItemList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/ItemList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/KeyBoardShortCuts.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/MouseEvent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/MouseEvent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/MouseEvent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/Node.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Node.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Node.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/NodeIterator.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/NodeIterator.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/NodeIterator.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/Snapshot.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Snapshot.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Snapshot.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/SnapshotInterface.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/SnapshotInterface.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/SnapshotInterface.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/StatesItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesItem.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesItem.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/guiComponent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/guiComponent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/InputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/InputBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/linkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/linkedList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/linkedList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/projectFont.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/projectFont.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/projectFont.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/MenuBar.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/MenuBar.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/MenuBar.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/Menu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Menu.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Menu.cpp"
+}
+]
