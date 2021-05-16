@@ -15,13 +15,16 @@ class InputBox : public guiComponent {
  private:
   sf::RectangleShape inputBox;
   sf::Text inputBoxTxt;
-  Item inputBoxItem;
-  ItemList itemList;
  
  public:
   InputBox();
   void inputBoxCenterTxt();
-  void modifyInputBoxTxt(sf::String newStr);
+
+  /* Input box/txt position */
+  void setInputBoxPos(float x, float y);
+  void setInputBoxTxtPos(float x, float y);
+
+  void setInputBoxTxt(sf::String newStr);
   void draw(sf::RenderTarget& window, sf::RenderStates states) const;
   void addEventHandler(sf::RenderWindow& window, sf::Event event);
   void update();

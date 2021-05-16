@@ -39,7 +39,10 @@ void ItemList::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   linkedList<Item>::iterator iter = list.begin();
   // Draw each item box
   while (iter != list.end()) {
-    window.draw(*iter);
+    // window.draw(*iter);
+    std::cout << "itemlist draw item begin" << std::endl; // not reached
+    (*iter).draw(window, states);
+    std::cout << "itemlist draw item end" << std::endl;   // not reached
     ++iter;
   }
 }
@@ -54,7 +57,7 @@ void ItemList::addEventHandler(sf::RenderWindow& window, sf::Event event) {
 }
 
 void ItemList::update() {
-   // Create a list iterator
+  // Create a list iterator
   linkedList<Item>::iterator iter = list.begin();
   while (iter != list.end()) {
     (*iter).update();

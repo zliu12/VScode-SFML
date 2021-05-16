@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MenuBar.dir/SnapshotInterface.cpp.o.d"
   "CMakeFiles/MenuBar.dir/States.cpp.o"
   "CMakeFiles/MenuBar.dir/States.cpp.o.d"
+  "CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o"
+  "CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o.d"
   "CMakeFiles/MenuBar.dir/StatesItem.cpp.o"
   "CMakeFiles/MenuBar.dir/StatesItem.cpp.o.d"
   "CMakeFiles/MenuBar.dir/guiComponent.cpp.o"

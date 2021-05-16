@@ -265,10 +265,24 @@ CMakeFiles/MenuBar.dir/StatesItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MenuBar.dir/StatesItem.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesItem.cpp -o CMakeFiles/MenuBar.dir/StatesItem.cpp.s
 
+CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o: CMakeFiles/MenuBar.dir/flags.make
+CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o: ../StatesInputBox.cpp
+CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o -MF CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o.d -o CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.cpp
+
+CMakeFiles/MenuBar.dir/StatesInputBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MenuBar.dir/StatesInputBox.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.cpp > CMakeFiles/MenuBar.dir/StatesInputBox.cpp.i
+
+CMakeFiles/MenuBar.dir/StatesInputBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MenuBar.dir/StatesInputBox.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.cpp -o CMakeFiles/MenuBar.dir/StatesInputBox.cpp.s
+
 CMakeFiles/MenuBar.dir/guiComponent.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/guiComponent.cpp.o: ../guiComponent.cpp
 CMakeFiles/MenuBar.dir/guiComponent.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MenuBar.dir/guiComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MenuBar.dir/guiComponent.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/guiComponent.cpp.o -MF CMakeFiles/MenuBar.dir/guiComponent.cpp.o.d -o CMakeFiles/MenuBar.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/guiComponent.cpp
 
 CMakeFiles/MenuBar.dir/guiComponent.cpp.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/MenuBar.dir/guiComponent.cpp.s: cmake_force
 CMakeFiles/MenuBar.dir/InputBox.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/InputBox.cpp.o: ../InputBox.cpp
 CMakeFiles/MenuBar.dir/InputBox.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MenuBar.dir/InputBox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MenuBar.dir/InputBox.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/InputBox.cpp.o -MF CMakeFiles/MenuBar.dir/InputBox.cpp.o.d -o CMakeFiles/MenuBar.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/InputBox.cpp
 
 CMakeFiles/MenuBar.dir/InputBox.cpp.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/MenuBar.dir/InputBox.cpp.s: cmake_force
 CMakeFiles/MenuBar.dir/linkedList.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/linkedList.cpp.o: ../linkedList.cpp
 CMakeFiles/MenuBar.dir/linkedList.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MenuBar.dir/linkedList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MenuBar.dir/linkedList.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/linkedList.cpp.o -MF CMakeFiles/MenuBar.dir/linkedList.cpp.o.d -o CMakeFiles/MenuBar.dir/linkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/linkedList.cpp
 
 CMakeFiles/MenuBar.dir/linkedList.cpp.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/MenuBar.dir/linkedList.cpp.s: cmake_force
 CMakeFiles/MenuBar.dir/projectFont.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/projectFont.cpp.o: ../projectFont.cpp
 CMakeFiles/MenuBar.dir/projectFont.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MenuBar.dir/projectFont.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MenuBar.dir/projectFont.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/projectFont.cpp.o -MF CMakeFiles/MenuBar.dir/projectFont.cpp.o.d -o CMakeFiles/MenuBar.dir/projectFont.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/projectFont.cpp
 
 CMakeFiles/MenuBar.dir/projectFont.cpp.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/MenuBar.dir/projectFont.cpp.s: cmake_force
 CMakeFiles/MenuBar.dir/MenuBar.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/MenuBar.cpp.o: ../MenuBar.cpp
 CMakeFiles/MenuBar.dir/MenuBar.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MenuBar.dir/MenuBar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MenuBar.dir/MenuBar.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/MenuBar.cpp.o -MF CMakeFiles/MenuBar.dir/MenuBar.cpp.o.d -o CMakeFiles/MenuBar.dir/MenuBar.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/MenuBar.cpp
 
 CMakeFiles/MenuBar.dir/MenuBar.cpp.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/MenuBar.dir/MenuBar.cpp.s: cmake_force
 CMakeFiles/MenuBar.dir/Menu.cpp.o: CMakeFiles/MenuBar.dir/flags.make
 CMakeFiles/MenuBar.dir/Menu.cpp.o: ../Menu.cpp
 CMakeFiles/MenuBar.dir/Menu.cpp.o: CMakeFiles/MenuBar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MenuBar.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MenuBar.dir/Menu.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MenuBar.dir/Menu.cpp.o -MF CMakeFiles/MenuBar.dir/Menu.cpp.o.d -o CMakeFiles/MenuBar.dir/Menu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Menu.cpp
 
 CMakeFiles/MenuBar.dir/Menu.cpp.i: cmake_force
@@ -365,6 +379,7 @@ MenuBar_OBJECTS = \
 "CMakeFiles/MenuBar.dir/SnapshotInterface.cpp.o" \
 "CMakeFiles/MenuBar.dir/States.cpp.o" \
 "CMakeFiles/MenuBar.dir/StatesItem.cpp.o" \
+"CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o" \
 "CMakeFiles/MenuBar.dir/guiComponent.cpp.o" \
 "CMakeFiles/MenuBar.dir/InputBox.cpp.o" \
 "CMakeFiles/MenuBar.dir/linkedList.cpp.o" \
@@ -389,6 +404,7 @@ MenuBar: CMakeFiles/MenuBar.dir/Snapshot.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/SnapshotInterface.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/States.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/StatesItem.cpp.o
+MenuBar: CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/guiComponent.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/InputBox.cpp.o
 MenuBar: CMakeFiles/MenuBar.dir/linkedList.cpp.o
@@ -401,7 +417,7 @@ MenuBar: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
 MenuBar: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 MenuBar: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 MenuBar: CMakeFiles/MenuBar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable MenuBar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable MenuBar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MenuBar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -27,39 +27,58 @@ void InputBox::inputBoxCenterTxt() {
   inputBoxTxt.setPosition(sf::Vector2f(inputBoxTxtX, inputBoxTxtY));
 }
 
-void InputBox::modifyInputBoxTxt(sf::String newStr) {
+/* Input box/txt position */
+void InputBox::setInputBoxPos(float x, float y) {
+  inputBox.setPosition(sf::Vector2f(x, y));
+}
+void InputBox::setInputBoxTxtPos(float x, float y) {
+  inputBoxTxt.setPosition(sf::Vector2f(x, y));
+}
+
+void InputBox::setInputBoxTxt(sf::String newStr) {
   inputBoxTxt.setString(newStr);
 }
 
 void InputBox::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   window.draw(inputBox);
   window.draw(inputBoxTxt);
-  window.draw(itemList);
 }
 
 void InputBox::addEventHandler(sf::RenderWindow& window, sf::Event event) {
   // If click inputBox
   if (MouseEvent<sf::RectangleShape>::mouseClicked(inputBox, window)) {
-    States::enableState(States::ITEMAPPEARED);      // ITEMAPPEARED true
-    States::enableState(States::BGCOLOR);           // BGCOLOR true
+    // ITEMAPPEARED true
+    States::enableState(States::ITEMAPPEARED);    
+    // INPUTBOXBGCOLOR true  
+    StatesInputBox::enableInputBoxState(StatesInputBox::INPUTBOXBGCOLOR);
+
+    // Debugging
     std::cout << "ITEMAPPEARED: " << States::stateEnabled(States::ITEMAPPEARED) << std::endl;
-    std::cout << "BGCOLOR: " << States::stateEnabled(States::BGCOLOR) << std::endl;
+    std::cout << "INPUTBOXBGCOLOR: " << StatesInputBox::inputBoxStateEnabled(StatesInputBox::INPUTBOXBGCOLOR) << std::endl;
   }
   // If click other window areas
   else if (MouseEvent<sf::Window>::mouseClicked(window, event)) {
-    Item::States::disableState(Item::States::ITEMAPPEARED);     // ITEMAPPEARED false
-    Item::States::disableState(Item::States::BGCOLOR);          // BGCOLOR false
+    // ITEMAPPEARED false
+    Item::States::disableState(Item::States::ITEMAPPEARED);
+    // INPUTBOXBGCOLOR false
+    StatesInputBox::disableInputBoxState(StatesInputBox::INPUTBOXBGCOLOR);
+
+    // Debugging
     std::cout << "ITEMAPPEARED: " << States::stateEnabled(States::ITEMAPPEARED) << std::endl;
-    std::cout << "BGCOLOR: " << States::stateEnabled(States::BGCOLOR) << std::endl;
+    std::cout << "INPUTBOXBGCOLOR: " << StatesInputBox::inputBoxStateEnabled(StatesInputBox::INPUTBOXBGCOLOR) << std::endl;
   }
 }
 
 void InputBox::update() {
-  if (States::stateEnabled(States::BGCOLOR)) {      // BGCOLOR true
-    inputBox.setFillColor(sf::Color::Blue);         // inputBox blue
+  // INPUTBOXBGCOLOR true  
+  if (StatesInputBox::inputBoxStateEnabled(StatesInputBox::INPUTBOXBGCOLOR)) {
+    // inputBox blue
+    inputBox.setFillColor(sf::Color::Blue);         
   }
-  else {                                            // BGCOLOR false
-    inputBox.setFillColor(sf::Color::Transparent);  // inputBox transparent
+  // INPUTBOXBGCOLOR false 
+  else {
+    // inputBox transparent
+    inputBox.setFillColor(sf::Color::Transparent);  
   }
 }
 

@@ -883,6 +883,30 @@ States.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MenuBar.dir/build.make CMakeFiles/MenuBar.dir/States.cpp.s
 .PHONY : States.cpp.s
 
+StatesInputBox.o: StatesInputBox.cpp.o
+.PHONY : StatesInputBox.o
+
+# target to build an object file
+StatesInputBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MenuBar.dir/build.make CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o
+.PHONY : StatesInputBox.cpp.o
+
+StatesInputBox.i: StatesInputBox.cpp.i
+.PHONY : StatesInputBox.i
+
+# target to preprocess a source file
+StatesInputBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MenuBar.dir/build.make CMakeFiles/MenuBar.dir/StatesInputBox.cpp.i
+.PHONY : StatesInputBox.cpp.i
+
+StatesInputBox.s: StatesInputBox.cpp.s
+.PHONY : StatesInputBox.s
+
+# target to generate assembly for a file
+StatesInputBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MenuBar.dir/build.make CMakeFiles/MenuBar.dir/StatesInputBox.cpp.s
+.PHONY : StatesInputBox.cpp.s
+
 StatesItem.o: StatesItem.cpp.o
 .PHONY : StatesItem.o
 
@@ -1088,6 +1112,9 @@ help:
 	@echo "... States.o"
 	@echo "... States.i"
 	@echo "... States.s"
+	@echo "... StatesInputBox.o"
+	@echo "... StatesInputBox.i"
+	@echo "... StatesInputBox.s"
 	@echo "... StatesItem.o"
 	@echo "... StatesItem.i"
 	@echo "... StatesItem.s"

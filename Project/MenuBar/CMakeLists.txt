@@ -19,6 +19,7 @@ Snapshot.cpp Snapshot.h
 SnapshotInterface.cpp SnapshotInterface.h 
 States.cpp States.h
 StatesItem.cpp StatesItem.h
+StatesInputBox.cpp StatesInputBox.h 
 guiComponent.cpp guiComponent.h
 InputBox.cpp InputBox.h  
 linkedList.cpp linkedList.h

@@ -10,15 +10,34 @@ Menu::Menu() {
 
 }
 
-Menu::Menu(std::vector<std::string> items) {
+Menu::Menu(std::vector<std::string> itemsVec) {
   // Initialize the Menu object with items provided
-  for (int i = 0; i < items.size(); ++i) {
-    itemList.addItem(items.at(i));
+  for (int i = 0; i < itemsVec.size(); ++i) {
+    itemList.addItem(itemsVec.at(i));
   }
 }
 
-void Menu::setMenuPosition(float x, float y) {
-  item.setItemPos(x, y);
+/* Menu input box / input box txt position */
+void Menu::setMenuInputBoxPosition(float x, float y) {
+  inputBox.setInputBoxPos(x, y);
+}
+void Menu::setMenuInputBoxTxtPos() {
+  // inputBox.setInputBoxTxtPos(x, y);
+  inputBox.inputBoxCenterTxt();
+}
+void Menu::setMenuInputBoxStr(sf::String str) {
+  inputBox.setInputBoxTxt(str);
+}
+
+/* ItemList */
+void Menu::setMenuItemBoxPos(float x, float y) {
+  // itemList.setItemBoxPos(x, y);
+}
+void Menu::setMenuItemTxtPos() {
+
+}
+void Menu::setMenuItemTxtStr(sf::String str) {
+
 }
 
 void Menu::setMenuStr(sf::String str) {
@@ -27,10 +46,13 @@ void Menu::setMenuStr(sf::String str) {
 }
 
 void Menu::draw(sf::RenderTarget& window, sf::RenderStates states) const {
-  window.draw(inputBox);
+  inputBox.draw(window, states);
+  // item.draw(window, states);
 
   if (States::stateEnabled(States::ITEMAPPEARED)) {
-    window.draw(itemList);
+    std::cout << "menu draw itemlist begin" << std::endl;   // called
+    itemList.draw(window, states);
+    std::cout << "menu draw itemlist finish" << std::endl;  // called
   }
 }
 

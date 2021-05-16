@@ -20,8 +20,18 @@ class Menu : public guiComponent {
 
  public:
   Menu();
-  Menu(std::vector<std::string> items);
-  void setMenuPosition(float x, float y);
+  Menu(std::vector<std::string> itemsVec);
+
+  /* Menu input box / input box txt*/
+  void setMenuInputBoxPosition(float x, float y);     // inputBox pos
+  void setMenuInputBoxTxtPos();                       // inputBoxTxt pos
+  void setMenuInputBoxStr(sf::String str);            // inputBoxTxt string
+
+  /* ItemList */
+  void setMenuItemBoxPos(float x, float y);           // itemList pos
+  void setMenuItemTxtPos();                           // itemList txt pos
+  void setMenuItemTxtStr(sf::String str);             // itemList txt string
+
   void setMenuStr(sf::String str);
   void draw(sf::RenderTarget& window, sf::RenderStates states) const;
   void addEventHandler(sf::RenderWindow& window, sf::Event event);

@@ -10,6 +10,7 @@
 #include "EventHandler.h"
 #include "States.h"
 #include "StatesItem.h"
+#include "StatesInputBox.h"
 #include "SnapshotInterface.h"
 #include "projectFont.h"
 #include <iostream>
@@ -20,6 +21,7 @@
 class guiComponent : public EventHandler, 
                      public States,
                      public StatesItem,
+                     public StatesInputBox,
                      public SnapshotInterface,
                      public ProjectFont,
                      public sf::Drawable,

@@ -71,6 +71,11 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/StatesInputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/build",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/MenuBar.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/guiComponent.cpp",
   "file": "/Users/qcl/pcc/spring2021/SFML/Project/MenuBar/guiComponent.cpp"
 },

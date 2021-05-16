@@ -310,6 +310,7 @@ CMakeFiles/MenuBar.dir/main.cpp.o: \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/States.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesItem.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/Snapshot.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/projectFont.h \

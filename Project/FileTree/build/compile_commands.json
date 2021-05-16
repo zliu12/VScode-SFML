@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/FileItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/FileNode.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/FileTree.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileTree.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileTree.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/Item.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/EventHandler.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/GuiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/linkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/linkedList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/linkedList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/MouseEvents.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/Node.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Node.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Node.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/NodeIterator.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/NodeIterator.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/NodeIterator.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/ProjectFont.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/Snapshot.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/SnapshotInterface.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/ProjectImage.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp"
+}
+]

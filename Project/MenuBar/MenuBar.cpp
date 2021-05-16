@@ -18,14 +18,10 @@ MenuBar::MenuBar(std::vector<std::string> menuVec) {
 }
 
 void MenuBar::addMenu(sf::String menuStr) {
-  // Create a Menu type item
-  Menu menuAdded;
-
-  // Set the menu box position for menuAdded
-  menuAdded.setMenuPosition(500 + 510 * menuAddedCount, 100);
-
-  // Set the string content of the added menu
-  menuAdded.setMenuStr(menuStr);
+  /* Menu input box, input box txt */
+  menuAdded.setMenuInputBoxPosition(500 + 505 * menuAddedCount, 100);
+  menuAdded.setMenuInputBoxTxtPos();
+  menuAdded.setMenuInputBoxStr(menuStr);
 
   // Insert the menuAdded into the list
   menuList.insertAtEnd(menuAdded);
@@ -34,12 +30,19 @@ void MenuBar::addMenu(sf::String menuStr) {
   menuAddedCount += 1;
 }
 
+void MenuBar::addMenuItem(sf::String menuListStr) {
+  menuAdded.setMenuItemBoxPos(500, 310 + 210 * menuItemAddedCount);
+  menuAdded.setMenuItemTxtPos();
+  menuAdded.setMenuItemTxtStr(menuListStr);
+}
+
 void MenuBar::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   // Create a menulist iterator
   linkedList<Menu>::iterator menuIter = menuList.begin();
   // Draw each menu
   while (menuIter != menuList.end()) {
     window.draw(*menuIter);
+    // std::cout << "menubar draw called" << std::endl; // called
     ++menuIter;
   }
 }

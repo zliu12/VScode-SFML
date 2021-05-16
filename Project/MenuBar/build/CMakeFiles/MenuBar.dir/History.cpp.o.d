@@ -311,6 +311,7 @@ CMakeFiles/MenuBar.dir/History.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesItem.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/StatesInputBox.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/MenuBar/projectFont.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \

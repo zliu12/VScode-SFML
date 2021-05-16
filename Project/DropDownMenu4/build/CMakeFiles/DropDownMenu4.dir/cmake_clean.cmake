@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/DropDownMenu4.dir/DropDownMenu.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/DropDownMenu.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/EventHandler.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/EventHandler.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/GuiComponent.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/GuiComponent.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/History.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/History.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/InputBox.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/InputBox.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/Item.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/Item.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/ItemList.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/ItemList.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/KeyBoardShortCuts.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/KeyBoardShortCuts.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/MouseEvents.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/MouseEvents.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/Node.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/Node.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/NodeIterator.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/NodeIterator.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/ProjectFont.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/ProjectFont.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/Snapshot.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/Snapshot.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/SnapshotInterface.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/SnapshotInterface.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/States.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/States.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/linkedList.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/linkedList.cpp.o.d"
+  "CMakeFiles/DropDownMenu4.dir/main.cpp.o"
+  "CMakeFiles/DropDownMenu4.dir/main.cpp.o.d"
+  "DropDownMenu4"
+  "DropDownMenu4.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/DropDownMenu4.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

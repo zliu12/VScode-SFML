@@ -9,7 +9,7 @@
 Item::Item() {
   /* itemBox */
   itemBox.setFillColor(sf::Color::Transparent);   // item box fill color transparent
-  itemBox.setSize(sf::Vector2f(500, 200));       // item box size 1500 x 200
+  itemBox.setSize(sf::Vector2f(500, 200));        // item box size 1500 x 200
   itemBox.setOutlineColor(sf::Color::White);      // item box outline color white
   itemBox.setOutlineThickness(5);                 // item box thickness 5
   itemBox.setPosition(sf::Vector2f(500, 310));    // item box position 500, 310
@@ -40,6 +40,7 @@ void Item::setItemStr(sf::String str) {
 void Item::setItemPos(float x, float y) {
   itemTxt.setPosition(sf::Vector2f(x, y));
   itemBox.setPosition(sf::Vector2f(x, y));
+  std::cout << "item setItemPos called" << std::endl;
 }
 
 void Item::draw(sf::RenderTarget& window, sf::RenderStates states) const {

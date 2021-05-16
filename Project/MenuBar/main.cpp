@@ -12,13 +12,18 @@ int main() {
 	win.setPosition(sf::Vector2i(180, 100));
 
 	// Create a string vector
-	std::vector<std::string> v{"Test1", "Test2", "Test3"};
+	std::vector<std::string> menuVec{"Menu 1", "Menu 2", "Menu 3"};
+	// std::vector<std::vector<std::string>> menuListVec{
+		// {"Menu 1 Item 1", "Menu 1 Item 2", "Menu 1 Item 1"}, 
+		// {"Menu 2 Item 1", "Menu 2 Item 2", "Menu 2 Item 2"},
+		// {"Menu 3 Item 1", "Menu 3 Item 2", "Menu 3 Item 3"}
+	// };
 
 	// Test
 	// Item item;
 	// DropDownMenu menu(v);
-	// Menu menu(v);
-	MenuBar menu(v);
+	// Menu menu(menuVec);
+	MenuBar menu(menuVec);
 
 	// While window is open
 	while (win.isOpen()) {
@@ -30,7 +35,7 @@ int main() {
 			}
 
 			
-			std::cout << sf::Mouse::getPosition(win).x << " " << sf::Mouse::getPosition(win).y << std::endl;
+			// std::cout << sf::Mouse::getPosition(win).x << " " << sf::Mouse::getPosition(win).y << std::endl;
 
 			// item.addEventHandler(win, event);		// work
 
@@ -45,6 +50,7 @@ int main() {
 		menu.update();
 		win.clear();
 		win.draw(menu);
+		// std::cout << "main draw" << std::endl;
 		win.display();
 	}
 

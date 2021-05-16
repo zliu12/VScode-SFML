@@ -546,3 +546,759 @@ make: *** [cmTC_bcc1f/fast] Error 2
 
 
 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b0344/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b0344.dir/build.make CMakeFiles/cmTC_b0344.dir/build
+Building C object CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_b0344
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0344.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -o cmTC_b0344 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_b0344 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b0344.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b0344] Error 1
+make: *** [cmTC_b0344/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_00f56/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00f56.dir/build.make CMakeFiles/cmTC_00f56.dir/build
+Building C object CMakeFiles/cmTC_00f56.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_00f56.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_00f56.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_00f56.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_00f56
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f56.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_00f56.dir/testCCompiler.c.o -o cmTC_00f56 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_00f56] Error 1
+make: *** [cmTC_00f56/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e06fa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e06fa.dir/build.make CMakeFiles/cmTC_e06fa.dir/build
+Building C object CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_e06fa
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06fa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -o cmTC_e06fa 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_e06fa -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e06fa.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e06fa] Error 1
+make: *** [cmTC_e06fa/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d40d4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d40d4.dir/build.make CMakeFiles/cmTC_d40d4.dir/build
+Building C object CMakeFiles/cmTC_d40d4.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_d40d4.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_d40d4.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_d40d4.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d40d4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d40d4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d40d4.dir/testCCompiler.c.o -o cmTC_d40d4 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d40d4] Error 1
+make: *** [cmTC_d40d4/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0cfe3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0cfe3.dir/build.make CMakeFiles/cmTC_0cfe3.dir/build
+Building C object CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_0cfe3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cfe3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -o cmTC_0cfe3 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_0cfe3 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0cfe3.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0cfe3] Error 1
+make: *** [cmTC_0cfe3/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f60b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f60b.dir/build.make CMakeFiles/cmTC_1f60b.dir/build
+Building C object CMakeFiles/cmTC_1f60b.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_1f60b.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_1f60b.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_1f60b.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1f60b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f60b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1f60b.dir/testCCompiler.c.o -o cmTC_1f60b 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1f60b] Error 1
+make: *** [cmTC_1f60b/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a9fcb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a9fcb.dir/build.make CMakeFiles/cmTC_a9fcb.dir/build
+Building C object CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a9fcb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9fcb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -o cmTC_a9fcb 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_a9fcb -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a9fcb.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a9fcb] Error 1
+make: *** [cmTC_a9fcb/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ddc1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ddc1.dir/build.make CMakeFiles/cmTC_2ddc1.dir/build
+Building C object CMakeFiles/cmTC_2ddc1.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_2ddc1.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_2ddc1.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_2ddc1.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2ddc1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ddc1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2ddc1.dir/testCCompiler.c.o -o cmTC_2ddc1 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2ddc1] Error 1
+make: *** [cmTC_2ddc1/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_26fdc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26fdc.dir/build.make CMakeFiles/cmTC_26fdc.dir/build
+Building C object CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_26fdc
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26fdc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -o cmTC_26fdc 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_26fdc -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_26fdc.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_26fdc] Error 1
+make: *** [cmTC_26fdc/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0abe9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0abe9.dir/build.make CMakeFiles/cmTC_0abe9.dir/build
+Building C object CMakeFiles/cmTC_0abe9.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_0abe9.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_0abe9.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_0abe9.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0abe9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0abe9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0abe9.dir/testCCompiler.c.o -o cmTC_0abe9 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0abe9] Error 1
+make: *** [cmTC_0abe9/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_957b9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_957b9.dir/build.make CMakeFiles/cmTC_957b9.dir/build
+Building C object CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_957b9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_957b9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -o cmTC_957b9 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_957b9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_957b9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_957b9] Error 1
+make: *** [cmTC_957b9/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27b74/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_27b74.dir/build.make CMakeFiles/cmTC_27b74.dir/build
+Building C object CMakeFiles/cmTC_27b74.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_27b74.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_27b74.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_27b74.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_27b74
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27b74.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_27b74.dir/testCCompiler.c.o -o cmTC_27b74 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_27b74] Error 1
+make: *** [cmTC_27b74/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f179e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f179e.dir/build.make CMakeFiles/cmTC_f179e.dir/build
+Building C object CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_f179e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f179e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -o cmTC_f179e 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_f179e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f179e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f179e] Error 1
+make: *** [cmTC_f179e/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8a57/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b8a57.dir/build.make CMakeFiles/cmTC_b8a57.dir/build
+Building C object CMakeFiles/cmTC_b8a57.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_b8a57.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_b8a57.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_b8a57.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b8a57
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a57.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b8a57.dir/testCCompiler.c.o -o cmTC_b8a57 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b8a57] Error 1
+make: *** [cmTC_b8a57/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a2cd8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2cd8.dir/build.make CMakeFiles/cmTC_a2cd8.dir/build
+Building C object CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a2cd8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2cd8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -o cmTC_a2cd8 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_a2cd8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a2cd8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a2cd8] Error 1
+make: *** [cmTC_a2cd8/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_004b0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_004b0.dir/build.make CMakeFiles/cmTC_004b0.dir/build
+Building C object CMakeFiles/cmTC_004b0.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_004b0.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_004b0.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_004b0.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_004b0
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_004b0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_004b0.dir/testCCompiler.c.o -o cmTC_004b0 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_004b0] Error 1
+make: *** [cmTC_004b0/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c82d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2c82d.dir/build.make CMakeFiles/cmTC_2c82d.dir/build
+Building C object CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a12 -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.9) default target arm64-apple-darwin20.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_2c82d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c82d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -o cmTC_2c82d 
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+Target: aarch64-apple-darwin20.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 0.0.0 -o cmTC_2c82d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2c82d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 00:19:34 Mar 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2c82d] Error 1
+make: *** [cmTC_2c82d/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ad6c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ad6c.dir/build.make CMakeFiles/cmTC_4ad6c.dir/build
+Building C object CMakeFiles/cmTC_4ad6c.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_4ad6c.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_4ad6c.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_4ad6c.dir/testCCompiler.c.o -c /Users/qcl/pcc/spring2021/SFML/Project/Type_In_SFML/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4ad6c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad6c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4ad6c.dir/testCCompiler.c.o -o cmTC_4ad6c 
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4ad6c] Error 1
+make: *** [cmTC_4ad6c/fast] Error 2
+
+
+

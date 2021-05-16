@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/DropDownMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/DropDownMenu.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/DropDownMenu.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/EventHandler.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/EventHandler.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/EventHandler.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/guiComponent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/guiComponent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/guiComponent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/History.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/History.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/History.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/InputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/InputBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/Item.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Item.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Item.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/ItemList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/ItemList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/ItemList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/KeyBoardShortCuts.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/linkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/linkedList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/linkedList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/MouseEvent.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/MouseEvent.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/MouseEvent.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/Node.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Node.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Node.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/NodeIterator.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/NodeIterator.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/NodeIterator.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/projectFont.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/projectFont.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/projectFont.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/Snapshot.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Snapshot.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/Snapshot.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/SnapshotInterface.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/SnapshotInterface.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/SnapshotInterface.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/DropDownMenu3.dir/StatesItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/StatesItem.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu3/StatesItem.cpp"
+}
+]

@@ -18,6 +18,7 @@ class ItemList : public guiComponent {
  public:
   ItemList();
   ItemList(std::vector<std::string> strVec);
+  void setItemBoxPos(float x, float y);
   void addItem(sf::String str);
   void draw(sf::RenderTarget& window, sf::RenderStates states) const;
   void addEventHandler(sf::RenderWindow& window, sf::Event event);
