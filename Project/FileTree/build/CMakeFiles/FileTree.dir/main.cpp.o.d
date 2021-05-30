@@ -305,12 +305,15 @@ CMakeFiles/FileTree.dir/main.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileTree.h

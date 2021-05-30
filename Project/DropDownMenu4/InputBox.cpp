@@ -102,6 +102,10 @@ void InputBox::addEventHandler(sf::RenderWindow& window, sf::Event event) {
     States::enableState(States::HIGHLIGHTED);
     States::enableState(States::DISPLAYON);
     enableShowList();
+    
+    if (States::statesMap[DISPLAYON] == true) {
+      std::cout << States::ObjectState(DISPLAYON) << std::endl;
+    }
     // setNewTxtTrue();
     // std::cout << States::isEnabled(States::HIGHLIGHTED) << std::endl;
     // std::cout << States::isEnabled(States::DISPLAYON) << std::endl;

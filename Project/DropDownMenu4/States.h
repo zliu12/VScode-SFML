@@ -33,7 +33,7 @@ class States {
   // Set a state false
   bool disableState(ObjectState state);
 
- private:
+ public:
   std::map<ObjectState, bool> statesMap;
 };
 

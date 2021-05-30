@@ -12,11 +12,13 @@
 #include "States.h"
 #include "SnapshotInterface.h"
 #include "ProjectFont.h"
+#include "ProjectIcon.h"
 
 class GuiComponent : public EventHandler,
                      public States,
                      public SnapshotInterface,
                      public ProjectFont,
+                     public ProjectIcon,
                      public sf::Drawable,
                      public sf::Transformable
 {

@@ -15,7 +15,7 @@ States::States() {
 }
 
 // Check if a state is enabled
-bool States::isEnabled(const ObjectState state) {
+  bool States::isEnabled(const ObjectState state) {
   if (statesMap.count(state) > 0) {
     return statesMap[state];
   }

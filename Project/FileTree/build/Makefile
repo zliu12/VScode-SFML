@@ -763,29 +763,29 @@ ProjectFont.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectFont.cpp.s
 .PHONY : ProjectFont.cpp.s
 
-ProjectImage.o: ProjectImage.cpp.o
-.PHONY : ProjectImage.o
+ProjectIcon.o: ProjectIcon.cpp.o
+.PHONY : ProjectIcon.o
 
 # target to build an object file
-ProjectImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectImage.cpp.o
-.PHONY : ProjectImage.cpp.o
+ProjectIcon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectIcon.cpp.o
+.PHONY : ProjectIcon.cpp.o
 
-ProjectImage.i: ProjectImage.cpp.i
-.PHONY : ProjectImage.i
+ProjectIcon.i: ProjectIcon.cpp.i
+.PHONY : ProjectIcon.i
 
 # target to preprocess a source file
-ProjectImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectImage.cpp.i
-.PHONY : ProjectImage.cpp.i
+ProjectIcon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectIcon.cpp.i
+.PHONY : ProjectIcon.cpp.i
 
-ProjectImage.s: ProjectImage.cpp.s
-.PHONY : ProjectImage.s
+ProjectIcon.s: ProjectIcon.cpp.s
+.PHONY : ProjectIcon.s
 
 # target to generate assembly for a file
-ProjectImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectImage.cpp.s
-.PHONY : ProjectImage.cpp.s
+ProjectIcon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileTree.dir/build.make CMakeFiles/FileTree.dir/ProjectIcon.cpp.s
+.PHONY : ProjectIcon.cpp.s
 
 Snapshot.o: Snapshot.cpp.o
 .PHONY : Snapshot.o
@@ -977,9 +977,9 @@ help:
 	@echo "... ProjectFont.o"
 	@echo "... ProjectFont.i"
 	@echo "... ProjectFont.s"
-	@echo "... ProjectImage.o"
-	@echo "... ProjectImage.i"
-	@echo "... ProjectImage.s"
+	@echo "... ProjectIcon.o"
+	@echo "... ProjectIcon.i"
+	@echo "... ProjectIcon.s"
 	@echo "... Snapshot.o"
 	@echo "... Snapshot.i"
 	@echo "... Snapshot.s"

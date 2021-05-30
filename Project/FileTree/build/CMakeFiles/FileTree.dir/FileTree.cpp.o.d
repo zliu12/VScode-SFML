@@ -312,9 +312,8 @@ CMakeFiles/FileTree.dir/FileTree.cpp.o: \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.h
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp

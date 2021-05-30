@@ -170,9 +170,17 @@ CMakeFiles/FileTree.dir/FileItem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.h \
+  /opt/homebrew/include/SFML/Graphics.hpp \
+  /opt/homebrew/include/SFML/Window.hpp \
+  /opt/homebrew/include/SFML/System.hpp \
+  /opt/homebrew/include/SFML/Config.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /opt/homebrew/include/SFML/System/Clock.hpp \
+  /opt/homebrew/include/SFML/System/Export.hpp \
+  /opt/homebrew/include/SFML/System/Time.hpp \
+  /opt/homebrew/include/SFML/System/Err.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex \
@@ -194,8 +202,6 @@ CMakeFiles/FileTree.dir/FileItem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h \
@@ -227,16 +233,6 @@ CMakeFiles/FileTree.dir/FileItem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.h \
-  /opt/homebrew/include/SFML/Graphics.hpp \
-  /opt/homebrew/include/SFML/Window.hpp \
-  /opt/homebrew/include/SFML/System.hpp \
-  /opt/homebrew/include/SFML/Config.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
-  /opt/homebrew/include/SFML/System/Clock.hpp \
-  /opt/homebrew/include/SFML/System/Export.hpp \
-  /opt/homebrew/include/SFML/System/Time.hpp \
-  /opt/homebrew/include/SFML/System/Err.hpp \
   /opt/homebrew/include/SFML/System/FileInputStream.hpp \
   /opt/homebrew/include/SFML/System/InputStream.hpp \
   /opt/homebrew/include/SFML/System/NonCopyable.hpp \
@@ -309,10 +305,8 @@ CMakeFiles/FileTree.dir/FileItem.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
   /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp \
-  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.h
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp

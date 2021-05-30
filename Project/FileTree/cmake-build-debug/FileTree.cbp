@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FileTree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FileTree">
+				<Option output="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/FileTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileTree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FileTree/fast">
+				<Option output="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/FileTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileTree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/qcl/pcc/spring2021/SFML/Project/FileTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/EventHandler.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileItem.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileNode.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileTree.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/FileTree.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/GuiComponent.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Item.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Node.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Node.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/NodeIterator.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/NodeIterator.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/linkedList.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/linkedList.h">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/main.cpp">
+			<Option target="FileTree"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/FileTree/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

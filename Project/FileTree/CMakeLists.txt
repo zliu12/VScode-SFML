@@ -20,7 +20,7 @@ ProjectFont.cpp ProjectFont.h
 States.cpp States.h 
 Snapshot.cpp Snapshot.h 
 SnapshotInterface.cpp SnapshotInterface.h 
-ProjectImage.cpp ProjectImage.h 
+ProjectIcon.cpp ProjectIcon.h 
 )
 
 target_link_libraries(FileTree sfml-graphics sfml-audio)

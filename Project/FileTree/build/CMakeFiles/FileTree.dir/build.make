@@ -279,19 +279,19 @@ CMakeFiles/FileTree.dir/SnapshotInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FileTree.dir/SnapshotInterface.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.cpp -o CMakeFiles/FileTree.dir/SnapshotInterface.cpp.s
 
-CMakeFiles/FileTree.dir/ProjectImage.cpp.o: CMakeFiles/FileTree.dir/flags.make
-CMakeFiles/FileTree.dir/ProjectImage.cpp.o: ../ProjectImage.cpp
-CMakeFiles/FileTree.dir/ProjectImage.cpp.o: CMakeFiles/FileTree.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FileTree.dir/ProjectImage.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FileTree.dir/ProjectImage.cpp.o -MF CMakeFiles/FileTree.dir/ProjectImage.cpp.o.d -o CMakeFiles/FileTree.dir/ProjectImage.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp
+CMakeFiles/FileTree.dir/ProjectIcon.cpp.o: CMakeFiles/FileTree.dir/flags.make
+CMakeFiles/FileTree.dir/ProjectIcon.cpp.o: ../ProjectIcon.cpp
+CMakeFiles/FileTree.dir/ProjectIcon.cpp.o: CMakeFiles/FileTree.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FileTree.dir/ProjectIcon.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FileTree.dir/ProjectIcon.cpp.o -MF CMakeFiles/FileTree.dir/ProjectIcon.cpp.o.d -o CMakeFiles/FileTree.dir/ProjectIcon.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp
 
-CMakeFiles/FileTree.dir/ProjectImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FileTree.dir/ProjectImage.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp > CMakeFiles/FileTree.dir/ProjectImage.cpp.i
+CMakeFiles/FileTree.dir/ProjectIcon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FileTree.dir/ProjectIcon.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp > CMakeFiles/FileTree.dir/ProjectIcon.cpp.i
 
-CMakeFiles/FileTree.dir/ProjectImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FileTree.dir/ProjectImage.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp -o CMakeFiles/FileTree.dir/ProjectImage.cpp.s
+CMakeFiles/FileTree.dir/ProjectIcon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FileTree.dir/ProjectIcon.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp -o CMakeFiles/FileTree.dir/ProjectIcon.cpp.s
 
 # Object files for target FileTree
 FileTree_OBJECTS = \
@@ -310,7 +310,7 @@ FileTree_OBJECTS = \
 "CMakeFiles/FileTree.dir/States.cpp.o" \
 "CMakeFiles/FileTree.dir/Snapshot.cpp.o" \
 "CMakeFiles/FileTree.dir/SnapshotInterface.cpp.o" \
-"CMakeFiles/FileTree.dir/ProjectImage.cpp.o"
+"CMakeFiles/FileTree.dir/ProjectIcon.cpp.o"
 
 # External object files for target FileTree
 FileTree_EXTERNAL_OBJECTS =
@@ -330,7 +330,7 @@ FileTree: CMakeFiles/FileTree.dir/ProjectFont.cpp.o
 FileTree: CMakeFiles/FileTree.dir/States.cpp.o
 FileTree: CMakeFiles/FileTree.dir/Snapshot.cpp.o
 FileTree: CMakeFiles/FileTree.dir/SnapshotInterface.cpp.o
-FileTree: CMakeFiles/FileTree.dir/ProjectImage.cpp.o
+FileTree: CMakeFiles/FileTree.dir/ProjectIcon.cpp.o
 FileTree: CMakeFiles/FileTree.dir/build.make
 FileTree: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 FileTree: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib

@@ -312,5 +312,6 @@ CMakeFiles/FileTree.dir/Item.cpp.o: \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.h \
+  /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.h \
   /Users/qcl/pcc/spring2021/SFML/Project/FileTree/MouseEvents.cpp

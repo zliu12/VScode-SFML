@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Node.cpp" "CMakeFiles/FileTree.dir/Node.cpp.o" "gcc" "CMakeFiles/FileTree.dir/Node.cpp.o.d"
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/NodeIterator.cpp" "CMakeFiles/FileTree.dir/NodeIterator.cpp.o" "gcc" "CMakeFiles/FileTree.dir/NodeIterator.cpp.o.d"
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectFont.cpp" "CMakeFiles/FileTree.dir/ProjectFont.cpp.o" "gcc" "CMakeFiles/FileTree.dir/ProjectFont.cpp.o.d"
-  "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp" "CMakeFiles/FileTree.dir/ProjectImage.cpp.o" "gcc" "CMakeFiles/FileTree.dir/ProjectImage.cpp.o.d"
+  "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp" "CMakeFiles/FileTree.dir/ProjectIcon.cpp.o" "gcc" "CMakeFiles/FileTree.dir/ProjectIcon.cpp.o.d"
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/Snapshot.cpp" "CMakeFiles/FileTree.dir/Snapshot.cpp.o" "gcc" "CMakeFiles/FileTree.dir/Snapshot.cpp.o.d"
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/SnapshotInterface.cpp" "CMakeFiles/FileTree.dir/SnapshotInterface.cpp.o" "gcc" "CMakeFiles/FileTree.dir/SnapshotInterface.cpp.o.d"
   "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/States.cpp" "CMakeFiles/FileTree.dir/States.cpp.o" "gcc" "CMakeFiles/FileTree.dir/States.cpp.o.d"

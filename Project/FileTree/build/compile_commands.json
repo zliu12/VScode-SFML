@@ -76,7 +76,7 @@
 },
 {
   "directory": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/ProjectImage.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp",
-  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectImage.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/FileTree.dir/ProjectIcon.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/FileTree/ProjectIcon.cpp"
 }
 ]
