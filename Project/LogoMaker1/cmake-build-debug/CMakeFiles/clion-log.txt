@@ -1,0 +1,17 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1
+-- Found SFML 2.5.1 in /opt/homebrew/lib/cmake/SFML
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    MouseEvents.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .ispc
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: LogoMaker1
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
