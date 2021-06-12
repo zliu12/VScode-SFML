@@ -80,7 +80,61 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/EventHandler.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.h">
 			<Option target="LogoMaker1"/>
 		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Font.cpp">
@@ -92,10 +146,40 @@
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/GuiComponent.h">
 			<Option target="LogoMaker1"/>
 		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/KeyBoardShortCuts.cpp">
 			<Option target="LogoMaker1"/>
 		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/KeyBoardShortCuts.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.h">
 			<Option target="LogoMaker1"/>
 		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ModuleBox.cpp">
@@ -116,10 +200,40 @@
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MouseEvents.h">
 			<Option target="LogoMaker1"/>
 		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Slider.cpp">
 			<Option target="LogoMaker1"/>
 		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Slider.h">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp">
+			<Option target="LogoMaker1"/>
+		</Unit>
+		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.h">
 			<Option target="LogoMaker1"/>
 		</Unit>
 		<Unit filename="/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextArea.cpp">

@@ -142,6 +142,249 @@ LogoMaker1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/build
 .PHONY : LogoMaker1/fast
 
+ColorGradient.o: ColorGradient.cpp.o
+
+.PHONY : ColorGradient.o
+
+# target to build an object file
+ColorGradient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o
+.PHONY : ColorGradient.cpp.o
+
+ColorGradient.i: ColorGradient.cpp.i
+
+.PHONY : ColorGradient.i
+
+# target to preprocess a source file
+ColorGradient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.i
+.PHONY : ColorGradient.cpp.i
+
+ColorGradient.s: ColorGradient.cpp.s
+
+.PHONY : ColorGradient.s
+
+# target to generate assembly for a file
+ColorGradient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.s
+.PHONY : ColorGradient.cpp.s
+
+ColorItem.o: ColorItem.cpp.o
+
+.PHONY : ColorItem.o
+
+# target to build an object file
+ColorItem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o
+.PHONY : ColorItem.cpp.o
+
+ColorItem.i: ColorItem.cpp.i
+
+.PHONY : ColorItem.i
+
+# target to preprocess a source file
+ColorItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorItem.cpp.i
+.PHONY : ColorItem.cpp.i
+
+ColorItem.s: ColorItem.cpp.s
+
+.PHONY : ColorItem.s
+
+# target to generate assembly for a file
+ColorItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorItem.cpp.s
+.PHONY : ColorItem.cpp.s
+
+ColorList.o: ColorList.cpp.o
+
+.PHONY : ColorList.o
+
+# target to build an object file
+ColorList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorList.cpp.o
+.PHONY : ColorList.cpp.o
+
+ColorList.i: ColorList.cpp.i
+
+.PHONY : ColorList.i
+
+# target to preprocess a source file
+ColorList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorList.cpp.i
+.PHONY : ColorList.cpp.i
+
+ColorList.s: ColorList.cpp.s
+
+.PHONY : ColorList.s
+
+# target to generate assembly for a file
+ColorList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorList.cpp.s
+.PHONY : ColorList.cpp.s
+
+ColorMenu.o: ColorMenu.cpp.o
+
+.PHONY : ColorMenu.o
+
+# target to build an object file
+ColorMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o
+.PHONY : ColorMenu.cpp.o
+
+ColorMenu.i: ColorMenu.cpp.i
+
+.PHONY : ColorMenu.i
+
+# target to preprocess a source file
+ColorMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.i
+.PHONY : ColorMenu.cpp.i
+
+ColorMenu.s: ColorMenu.cpp.s
+
+.PHONY : ColorMenu.s
+
+# target to generate assembly for a file
+ColorMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.s
+.PHONY : ColorMenu.cpp.s
+
+ColorPicker.o: ColorPicker.cpp.o
+
+.PHONY : ColorPicker.o
+
+# target to build an object file
+ColorPicker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o
+.PHONY : ColorPicker.cpp.o
+
+ColorPicker.i: ColorPicker.cpp.i
+
+.PHONY : ColorPicker.i
+
+# target to preprocess a source file
+ColorPicker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.i
+.PHONY : ColorPicker.cpp.i
+
+ColorPicker.s: ColorPicker.cpp.s
+
+.PHONY : ColorPicker.s
+
+# target to generate assembly for a file
+ColorPicker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.s
+.PHONY : ColorPicker.cpp.s
+
+DropDownMenu.o: DropDownMenu.cpp.o
+
+.PHONY : DropDownMenu.o
+
+# target to build an object file
+DropDownMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o
+.PHONY : DropDownMenu.cpp.o
+
+DropDownMenu.i: DropDownMenu.cpp.i
+
+.PHONY : DropDownMenu.i
+
+# target to preprocess a source file
+DropDownMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.i
+.PHONY : DropDownMenu.cpp.i
+
+DropDownMenu.s: DropDownMenu.cpp.s
+
+.PHONY : DropDownMenu.s
+
+# target to generate assembly for a file
+DropDownMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.s
+.PHONY : DropDownMenu.cpp.s
+
+FileItem.o: FileItem.cpp.o
+
+.PHONY : FileItem.o
+
+# target to build an object file
+FileItem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileItem.cpp.o
+.PHONY : FileItem.cpp.o
+
+FileItem.i: FileItem.cpp.i
+
+.PHONY : FileItem.i
+
+# target to preprocess a source file
+FileItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileItem.cpp.i
+.PHONY : FileItem.cpp.i
+
+FileItem.s: FileItem.cpp.s
+
+.PHONY : FileItem.s
+
+# target to generate assembly for a file
+FileItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileItem.cpp.s
+.PHONY : FileItem.cpp.s
+
+FileNode.o: FileNode.cpp.o
+
+.PHONY : FileNode.o
+
+# target to build an object file
+FileNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileNode.cpp.o
+.PHONY : FileNode.cpp.o
+
+FileNode.i: FileNode.cpp.i
+
+.PHONY : FileNode.i
+
+# target to preprocess a source file
+FileNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileNode.cpp.i
+.PHONY : FileNode.cpp.i
+
+FileNode.s: FileNode.cpp.s
+
+.PHONY : FileNode.s
+
+# target to generate assembly for a file
+FileNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileNode.cpp.s
+.PHONY : FileNode.cpp.s
+
+FileTree.o: FileTree.cpp.o
+
+.PHONY : FileTree.o
+
+# target to build an object file
+FileTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileTree.cpp.o
+.PHONY : FileTree.cpp.o
+
+FileTree.i: FileTree.cpp.i
+
+.PHONY : FileTree.i
+
+# target to preprocess a source file
+FileTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileTree.cpp.i
+.PHONY : FileTree.cpp.i
+
+FileTree.s: FileTree.cpp.s
+
+.PHONY : FileTree.s
+
+# target to generate assembly for a file
+FileTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/FileTree.cpp.s
+.PHONY : FileTree.cpp.s
+
 Font.o: Font.cpp.o
 
 .PHONY : Font.o
@@ -169,6 +412,87 @@ Font.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Font.cpp.s
 .PHONY : Font.cpp.s
 
+InputBox.o: InputBox.cpp.o
+
+.PHONY : InputBox.o
+
+# target to build an object file
+InputBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/InputBox.cpp.o
+.PHONY : InputBox.cpp.o
+
+InputBox.i: InputBox.cpp.i
+
+.PHONY : InputBox.i
+
+# target to preprocess a source file
+InputBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/InputBox.cpp.i
+.PHONY : InputBox.cpp.i
+
+InputBox.s: InputBox.cpp.s
+
+.PHONY : InputBox.s
+
+# target to generate assembly for a file
+InputBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/InputBox.cpp.s
+.PHONY : InputBox.cpp.s
+
+Item.o: Item.cpp.o
+
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
+ItemList.o: ItemList.cpp.o
+
+.PHONY : ItemList.o
+
+# target to build an object file
+ItemList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ItemList.cpp.o
+.PHONY : ItemList.cpp.o
+
+ItemList.i: ItemList.cpp.i
+
+.PHONY : ItemList.i
+
+# target to preprocess a source file
+ItemList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ItemList.cpp.i
+.PHONY : ItemList.cpp.i
+
+ItemList.s: ItemList.cpp.s
+
+.PHONY : ItemList.s
+
+# target to generate assembly for a file
+ItemList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ItemList.cpp.s
+.PHONY : ItemList.cpp.s
+
 KeyBoardShortCuts.o: KeyBoardShortCuts.cpp.o
 
 .PHONY : KeyBoardShortCuts.o
@@ -195,6 +519,60 @@ KeyBoardShortCuts.s: KeyBoardShortCuts.cpp.s
 KeyBoardShortCuts.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.s
 .PHONY : KeyBoardShortCuts.cpp.s
+
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+MenuBar.o: MenuBar.cpp.o
+
+.PHONY : MenuBar.o
+
+# target to build an object file
+MenuBar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o
+.PHONY : MenuBar.cpp.o
+
+MenuBar.i: MenuBar.cpp.i
+
+.PHONY : MenuBar.i
+
+# target to preprocess a source file
+MenuBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/MenuBar.cpp.i
+.PHONY : MenuBar.cpp.i
+
+MenuBar.s: MenuBar.cpp.s
+
+.PHONY : MenuBar.s
+
+# target to generate assembly for a file
+MenuBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/MenuBar.cpp.s
+.PHONY : MenuBar.cpp.s
 
 ModuleBox.o: ModuleBox.cpp.o
 
@@ -277,6 +655,114 @@ MouseEvents.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/MouseEvents.cpp.s
 .PHONY : MouseEvents.cpp.s
 
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
+NodeIterator.o: NodeIterator.cpp.o
+
+.PHONY : NodeIterator.o
+
+# target to build an object file
+NodeIterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o
+.PHONY : NodeIterator.cpp.o
+
+NodeIterator.i: NodeIterator.cpp.i
+
+.PHONY : NodeIterator.i
+
+# target to preprocess a source file
+NodeIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.i
+.PHONY : NodeIterator.cpp.i
+
+NodeIterator.s: NodeIterator.cpp.s
+
+.PHONY : NodeIterator.s
+
+# target to generate assembly for a file
+NodeIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.s
+.PHONY : NodeIterator.cpp.s
+
+PopWindow.o: PopWindow.cpp.o
+
+.PHONY : PopWindow.o
+
+# target to build an object file
+PopWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o
+.PHONY : PopWindow.cpp.o
+
+PopWindow.i: PopWindow.cpp.i
+
+.PHONY : PopWindow.i
+
+# target to preprocess a source file
+PopWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/PopWindow.cpp.i
+.PHONY : PopWindow.cpp.i
+
+PopWindow.s: PopWindow.cpp.s
+
+.PHONY : PopWindow.s
+
+# target to generate assembly for a file
+PopWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/PopWindow.cpp.s
+.PHONY : PopWindow.cpp.s
+
+ProjectIcon.o: ProjectIcon.cpp.o
+
+.PHONY : ProjectIcon.o
+
+# target to build an object file
+ProjectIcon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o
+.PHONY : ProjectIcon.cpp.o
+
+ProjectIcon.i: ProjectIcon.cpp.i
+
+.PHONY : ProjectIcon.i
+
+# target to preprocess a source file
+ProjectIcon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.i
+.PHONY : ProjectIcon.cpp.i
+
+ProjectIcon.s: ProjectIcon.cpp.s
+
+.PHONY : ProjectIcon.s
+
+# target to generate assembly for a file
+ProjectIcon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.s
+.PHONY : ProjectIcon.cpp.s
+
 Slider.o: Slider.cpp.o
 
 .PHONY : Slider.o
@@ -303,6 +789,33 @@ Slider.s: Slider.cpp.s
 Slider.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/Slider.cpp.s
 .PHONY : Slider.cpp.s
+
+States.o: States.cpp.o
+
+.PHONY : States.o
+
+# target to build an object file
+States.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/States.cpp.o
+.PHONY : States.cpp.o
+
+States.i: States.cpp.i
+
+.PHONY : States.i
+
+# target to preprocess a source file
+States.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/States.cpp.i
+.PHONY : States.cpp.i
+
+States.s: States.cpp.s
+
+.PHONY : States.s
+
+# target to generate assembly for a file
+States.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogoMaker1.dir/build.make CMakeFiles/LogoMaker1.dir/States.cpp.s
+.PHONY : States.cpp.s
 
 TextArea.o: TextArea.cpp.o
 
@@ -448,12 +961,54 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LogoMaker1"
+	@echo "... ColorGradient.o"
+	@echo "... ColorGradient.i"
+	@echo "... ColorGradient.s"
+	@echo "... ColorItem.o"
+	@echo "... ColorItem.i"
+	@echo "... ColorItem.s"
+	@echo "... ColorList.o"
+	@echo "... ColorList.i"
+	@echo "... ColorList.s"
+	@echo "... ColorMenu.o"
+	@echo "... ColorMenu.i"
+	@echo "... ColorMenu.s"
+	@echo "... ColorPicker.o"
+	@echo "... ColorPicker.i"
+	@echo "... ColorPicker.s"
+	@echo "... DropDownMenu.o"
+	@echo "... DropDownMenu.i"
+	@echo "... DropDownMenu.s"
+	@echo "... FileItem.o"
+	@echo "... FileItem.i"
+	@echo "... FileItem.s"
+	@echo "... FileNode.o"
+	@echo "... FileNode.i"
+	@echo "... FileNode.s"
+	@echo "... FileTree.o"
+	@echo "... FileTree.i"
+	@echo "... FileTree.s"
 	@echo "... Font.o"
 	@echo "... Font.i"
 	@echo "... Font.s"
+	@echo "... InputBox.o"
+	@echo "... InputBox.i"
+	@echo "... InputBox.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
+	@echo "... ItemList.o"
+	@echo "... ItemList.i"
+	@echo "... ItemList.s"
 	@echo "... KeyBoardShortCuts.o"
 	@echo "... KeyBoardShortCuts.i"
 	@echo "... KeyBoardShortCuts.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... MenuBar.o"
+	@echo "... MenuBar.i"
+	@echo "... MenuBar.s"
 	@echo "... ModuleBox.o"
 	@echo "... ModuleBox.i"
 	@echo "... ModuleBox.s"
@@ -463,9 +1018,24 @@ help:
 	@echo "... MouseEvents.o"
 	@echo "... MouseEvents.i"
 	@echo "... MouseEvents.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
+	@echo "... NodeIterator.o"
+	@echo "... NodeIterator.i"
+	@echo "... NodeIterator.s"
+	@echo "... PopWindow.o"
+	@echo "... PopWindow.i"
+	@echo "... PopWindow.s"
+	@echo "... ProjectIcon.o"
+	@echo "... ProjectIcon.i"
+	@echo "... ProjectIcon.s"
 	@echo "... Slider.o"
 	@echo "... Slider.i"
 	@echo "... Slider.s"
+	@echo "... States.o"
+	@echo "... States.i"
+	@echo "... States.s"
 	@echo "... TextArea.o"
 	@echo "... TextArea.i"
 	@echo "... TextArea.s"

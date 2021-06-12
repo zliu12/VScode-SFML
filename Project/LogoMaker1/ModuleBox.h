@@ -11,6 +11,7 @@ class ModuleBox : public GuiComponent {
 private:
     sf::RectangleShape moduleBox;
     bool clicked = false;
+    sf::Color moduleBoxOutlineColor = sf::Color(100, 100, 100);
 
 public:
     // Default constructor
@@ -39,6 +40,12 @@ public:
 
     // Get moduleBox position
     sf::Vector2f getModuleBoxPos() const;
+
+    // Get moduleBox global bounds
+    sf::FloatRect getGlobalBounds();
+
+    // Get moduleBox color
+    sf::Color getModuleBoxColor();
 
     // From sf::Drawable class
     void draw(sf::RenderTarget& window, sf::RenderStates states) const override;

@@ -1,5 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu
--- Found SFML 2.5.1 in /opt/homebrew/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/qcl/pcc/spring2021/SFML/Project/DropDownMenu/cmake-build-debug

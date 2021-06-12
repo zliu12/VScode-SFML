@@ -219,6 +219,253 @@ CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/KeyBoardShortCuts.cpp -o CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.s
 
+CMakeFiles/LogoMaker1.dir/Item.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/Item.cpp.o: ../Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LogoMaker1.dir/Item.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/Item.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp
+
+CMakeFiles/LogoMaker1.dir/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/Item.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp > CMakeFiles/LogoMaker1.dir/Item.cpp.i
+
+CMakeFiles/LogoMaker1.dir/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/Item.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp -o CMakeFiles/LogoMaker1.dir/Item.cpp.s
+
+CMakeFiles/LogoMaker1.dir/InputBox.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/InputBox.cpp.o: ../InputBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LogoMaker1.dir/InputBox.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp
+
+CMakeFiles/LogoMaker1.dir/InputBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/InputBox.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp > CMakeFiles/LogoMaker1.dir/InputBox.cpp.i
+
+CMakeFiles/LogoMaker1.dir/InputBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/InputBox.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp -o CMakeFiles/LogoMaker1.dir/InputBox.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ItemList.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ItemList.cpp.o: ../ItemList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LogoMaker1.dir/ItemList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ItemList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp
+
+CMakeFiles/LogoMaker1.dir/ItemList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ItemList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp > CMakeFiles/LogoMaker1.dir/ItemList.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ItemList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ItemList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp -o CMakeFiles/LogoMaker1.dir/ItemList.cpp.s
+
+CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o: ../LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp
+
+CMakeFiles/LogoMaker1.dir/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/LinkedList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp > CMakeFiles/LogoMaker1.dir/LinkedList.cpp.i
+
+CMakeFiles/LogoMaker1.dir/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/LinkedList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp -o CMakeFiles/LogoMaker1.dir/LinkedList.cpp.s
+
+CMakeFiles/LogoMaker1.dir/Node.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/Node.cpp.o: ../Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LogoMaker1.dir/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/Node.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp
+
+CMakeFiles/LogoMaker1.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp > CMakeFiles/LogoMaker1.dir/Node.cpp.i
+
+CMakeFiles/LogoMaker1.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp -o CMakeFiles/LogoMaker1.dir/Node.cpp.s
+
+CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o: ../NodeIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp
+
+CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp > CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.i
+
+CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp -o CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.s
+
+CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o: ../DropDownMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp
+
+CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp > CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.i
+
+CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp -o CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.s
+
+CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o: ../PopWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp
+
+CMakeFiles/LogoMaker1.dir/PopWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/PopWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp > CMakeFiles/LogoMaker1.dir/PopWindow.cpp.i
+
+CMakeFiles/LogoMaker1.dir/PopWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/PopWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp -o CMakeFiles/LogoMaker1.dir/PopWindow.cpp.s
+
+CMakeFiles/LogoMaker1.dir/States.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/States.cpp.o: ../States.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LogoMaker1.dir/States.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp
+
+CMakeFiles/LogoMaker1.dir/States.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/States.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp > CMakeFiles/LogoMaker1.dir/States.cpp.i
+
+CMakeFiles/LogoMaker1.dir/States.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/States.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp -o CMakeFiles/LogoMaker1.dir/States.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o: ../ColorPicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp
+
+CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp > CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp -o CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.s
+
+CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o: ../MenuBar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp
+
+CMakeFiles/LogoMaker1.dir/MenuBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/MenuBar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp > CMakeFiles/LogoMaker1.dir/MenuBar.cpp.i
+
+CMakeFiles/LogoMaker1.dir/MenuBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/MenuBar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp -o CMakeFiles/LogoMaker1.dir/MenuBar.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ColorList.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ColorList.cpp.o: ../ColorList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/LogoMaker1.dir/ColorList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ColorList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp
+
+CMakeFiles/LogoMaker1.dir/ColorList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ColorList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp > CMakeFiles/LogoMaker1.dir/ColorList.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ColorList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ColorList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp -o CMakeFiles/LogoMaker1.dir/ColorList.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o: ../ColorItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp
+
+CMakeFiles/LogoMaker1.dir/ColorItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ColorItem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp > CMakeFiles/LogoMaker1.dir/ColorItem.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ColorItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ColorItem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp -o CMakeFiles/LogoMaker1.dir/ColorItem.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o: ../ColorMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp
+
+CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp > CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp -o CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o: ../ColorGradient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp
+
+CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp > CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp -o CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.s
+
+CMakeFiles/LogoMaker1.dir/FileItem.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/FileItem.cpp.o: ../FileItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/LogoMaker1.dir/FileItem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/FileItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp
+
+CMakeFiles/LogoMaker1.dir/FileItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/FileItem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp > CMakeFiles/LogoMaker1.dir/FileItem.cpp.i
+
+CMakeFiles/LogoMaker1.dir/FileItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/FileItem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp -o CMakeFiles/LogoMaker1.dir/FileItem.cpp.s
+
+CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o: ../ProjectIcon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp
+
+CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp > CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.i
+
+CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp -o CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.s
+
+CMakeFiles/LogoMaker1.dir/FileNode.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/FileNode.cpp.o: ../FileNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/LogoMaker1.dir/FileNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/FileNode.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp
+
+CMakeFiles/LogoMaker1.dir/FileNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/FileNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp > CMakeFiles/LogoMaker1.dir/FileNode.cpp.i
+
+CMakeFiles/LogoMaker1.dir/FileNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/FileNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp -o CMakeFiles/LogoMaker1.dir/FileNode.cpp.s
+
+CMakeFiles/LogoMaker1.dir/FileTree.cpp.o: CMakeFiles/LogoMaker1.dir/flags.make
+CMakeFiles/LogoMaker1.dir/FileTree.cpp.o: ../FileTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/LogoMaker1.dir/FileTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LogoMaker1.dir/FileTree.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp
+
+CMakeFiles/LogoMaker1.dir/FileTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogoMaker1.dir/FileTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp > CMakeFiles/LogoMaker1.dir/FileTree.cpp.i
+
+CMakeFiles/LogoMaker1.dir/FileTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogoMaker1.dir/FileTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp -o CMakeFiles/LogoMaker1.dir/FileTree.cpp.s
+
 # Object files for target LogoMaker1
 LogoMaker1_OBJECTS = \
 "CMakeFiles/LogoMaker1.dir/main.cpp.o" \
@@ -231,7 +478,26 @@ LogoMaker1_OBJECTS = \
 "CMakeFiles/LogoMaker1.dir/ModuleLabel.cpp.o" \
 "CMakeFiles/LogoMaker1.dir/ModuleBox.cpp.o" \
 "CMakeFiles/LogoMaker1.dir/TextDisplay.cpp.o" \
-"CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o"
+"CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/Item.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/InputBox.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ItemList.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/Node.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/States.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ColorList.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/FileItem.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/FileNode.cpp.o" \
+"CMakeFiles/LogoMaker1.dir/FileTree.cpp.o"
 
 # External object files for target LogoMaker1
 LogoMaker1_EXTERNAL_OBJECTS =
@@ -247,13 +513,32 @@ LogoMaker1: CMakeFiles/LogoMaker1.dir/ModuleLabel.cpp.o
 LogoMaker1: CMakeFiles/LogoMaker1.dir/ModuleBox.cpp.o
 LogoMaker1: CMakeFiles/LogoMaker1.dir/TextDisplay.cpp.o
 LogoMaker1: CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/Item.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/InputBox.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ItemList.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/Node.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/States.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ColorList.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/FileItem.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/FileNode.cpp.o
+LogoMaker1: CMakeFiles/LogoMaker1.dir/FileTree.cpp.o
 LogoMaker1: CMakeFiles/LogoMaker1.dir/build.make
 LogoMaker1: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 LogoMaker1: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
 LogoMaker1: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 LogoMaker1: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 LogoMaker1: CMakeFiles/LogoMaker1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable LogoMaker1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable LogoMaker1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LogoMaker1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

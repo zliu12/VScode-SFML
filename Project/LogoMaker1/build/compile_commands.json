@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/main.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/main.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/main.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/MouseEvents.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MouseEvents.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MouseEvents.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/Slider.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Slider.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Slider.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/Font.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Font.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Font.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/Typing.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Typing.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Typing.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/TextArea.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextArea.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextArea.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/TextInput.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextInput.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextInput.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ModuleLabel.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ModuleLabel.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ModuleLabel.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ModuleBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ModuleBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ModuleBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/TextDisplay.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextDisplay.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/TextDisplay.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/KeyBoardShortCuts.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/KeyBoardShortCuts.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/Item.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Item.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/InputBox.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/InputBox.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ItemList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ItemList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/LinkedList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/LinkedList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/Node.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/Node.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/NodeIterator.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/NodeIterator.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/DropDownMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/DropDownMenu.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/PopWindow.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/PopWindow.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/States.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/States.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ColorPicker.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorPicker.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/MenuBar.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/MenuBar.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ColorList.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorList.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ColorItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorItem.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ColorMenu.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorMenu.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ColorGradient.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ColorGradient.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/FileItem.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileItem.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/ProjectIcon.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/ProjectIcon.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/FileNode.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileNode.cpp"
+},
+{
+  "directory": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/LogoMaker1.dir/FileTree.cpp.o -c /Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp",
+  "file": "/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/FileTree.cpp"
+}
+]

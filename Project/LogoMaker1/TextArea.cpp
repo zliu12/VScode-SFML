@@ -6,41 +6,37 @@
 
 TextArea::TextArea() {
   /* textAreaBox */
-  textAreaBox.moduleBoxSetSize(2790, 800);                       // Size
-  textAreaBox.moduleBoxSetFillColor(sf::Color::Transparent);      // Fill color
-  textAreaBox.moduleBoxSetOutlineFillColor(sf::Color::White);     // Outline color
-  textAreaBox.moduleBoxSetOutlineThickness(1);                    // Outline thickness
-  centerTextAreaBox();                                            // Center box
+  textAreaBox.moduleBoxSetSize(2800, 850);                            // Size
+  textAreaBox.moduleBoxSetFillColor(sf::Color::Transparent);          // Fill color
+  textAreaBox.moduleBoxSetOutlineThickness(2);                        // Outline thickness
+  centerTextAreaBox();                                                // Center box
 
   /* textInput */
   resetTextInputPos();
 
   /* textDisplay */
-//  textDisplay.setTextDisplayFont();
-//  textDisplay.setTextDisplayCharSize(textAreaBox.getModuleBoxSize().y * 0.25);
-//  textDisplay.setTextDisplayColor(sf::Color::White);
-
-  /* textDisplayShadow */
-
+  textDisplay.setTextDisplayPos(500, 500);
 }
 
 void TextArea::centerTextAreaBox() {
   float x = (2800 - textAreaBox.getModuleBoxSize().x) / 2;
-  textAreaBox.moduleBoxSetPos(x, textAreaBox.getModuleBoxOutlineThickness() * 2);
+  textAreaBox.moduleBoxSetPos(x, textAreaBox.getModuleBoxOutlineThickness() * 40);
 }
 
 void TextArea::resetTextInputPos() {
-  textInput.setTextInputBoxPos(textAreaBox.getModuleBoxPos().x + (textAreaBox.getModuleBoxSize().x -
-                               textInput.getTextInputBoxSize().x) / 2,
-                               textAreaBox.getModuleBoxPos().y + textAreaBox.getModuleBoxSize().y -
-                               textInput.getTextInputBoxSize().y);
+//  textInput.setTextInputBoxPos(textAreaBox.getModuleBoxPos().x + (textAreaBox.getModuleBoxSize().x -
+//                               textInput.getTextInputBoxSize().x) / 2,
+//                               textAreaBox.getModuleBoxPos().y + textAreaBox.getModuleBoxSize().y -
+//                               textInput.getTextInputBoxSize().y);
+  textInput.setTextInputBoxPos(2040, 1000);
 }
-
 
 void TextArea::draw(sf::RenderTarget &window, sf::RenderStates states) const {
   window.draw(textAreaBox);
   window.draw(textInput);
   window.draw(textDisplay);
+  window.draw(bgOpacity);
+  window.draw(bgColorMenu);
 }
 
 void TextArea::addEventHandler(sf::RenderWindow &window, sf::Event event) {
@@ -48,12 +44,31 @@ void TextArea::addEventHandler(sf::RenderWindow &window, sf::Event event) {
   textDisplay.addEventHandler(window, event);
   textDisplay.setTextDisplayStr(textInput.getTxtTyped());
 
+  /* bgColorMenu */
+  bgColorMenu.addEventHandler(window, event);
+  textAreaBox.moduleBoxSetFillColor(bgColorMenu.getColorClicked());
+  bgColorMenu.setColorPickerFillColor(bgColorMenu.getColorClicked());
+
+  /* Use Slider bgOpacity to modify background color opacity */
+  sf::Color textAreaBoxColor = textAreaBox.getModuleBoxColor();
+  textAreaBoxColor.a = bgOpacity.getMovingDistance() / 1.76;
+  textAreaBox.moduleBoxSetFillColor(textAreaBoxColor);
+  bgOpacity.addEventHandler(window, event);
+}
+
+void TextArea::update() {
+  textDisplay.update();
+  textDisplay.update();
+  bgOpacity.update();
+  bgColorMenu.update();
+
   if (KeyBoardShortCuts::resetPos()) {
     resetTextInputPos();
-    std::cout << "Reset textInput" << std::endl;
+//    std::cout << "Reset textInput" << std::endl;
   }
-}
-void TextArea::update() {
 
+  if (Item::getStrClicked() == "Reset Module         (Command+F1)") {
+    resetTextInputPos();
+  }
 }
 

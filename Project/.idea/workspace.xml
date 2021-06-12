@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1609c63d-067e-4398-844d-f865f7a0fb67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DropDownMenu4/build/.cmake/api/v1/reply/index-2021-05-21T22-00-57-0384.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DropDownMenu4/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/DropDownMenu4/build/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Font.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Font.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Font.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Font.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/GuiComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/GuiComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/KeyBoardShortCuts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/KeyBoardShortCuts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/KeyBoardShortCuts.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/KeyBoardShortCuts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/ModuleBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/ModuleBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/ModuleBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/ModuleBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/ModuleLabel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/ModuleLabel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/ModuleLabel.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/ModuleLabel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Slider.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Slider.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Slider.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Slider.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/TextArea.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/TextArea.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/TextArea.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/TextArea.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/TextDisplay.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/TextDisplay.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/TextDisplay.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/TextDisplay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/TextInput.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/TextInput.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Typing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Typing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/Typing.h" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/Typing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Font.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Font.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/KeyBoardShortCuts.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/ModuleBox.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/ModuleBox.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/ModuleLabel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/ModuleLabel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Slider.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Slider.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextArea.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextArea.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextDisplay.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextDisplay.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextInput.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/TextInput.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Typing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/Typing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/LogoMaker1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/LogoMaker1" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/LogoMaker1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/LogoMaker1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/LogoMaker1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogoMaker1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LogoMaker1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/.cmake/api/v1/reply/index-2021-05-10T06-22-52-0097.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuBar/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/MenuBar/build/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tgro1l530W5VQs6kMQfcuNHB1V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1609c63d-067e-4398-844d-f865f7a0fb67" name="Default Changelist" comment="" />
+      <created>1623201744776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623201744776</updated>
+      <workItem from="1623201745899" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

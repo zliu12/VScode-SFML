@@ -1,0 +1,3 @@
+/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build/CMakeFiles/rebuild_cache.dir
+/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build/CMakeFiles/edit_cache.dir
+/Users/qcl/pcc/spring2021/SFML/Project/LogoMaker1/build/CMakeFiles/LogoMaker1.dir

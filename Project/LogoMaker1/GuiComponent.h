@@ -10,13 +10,17 @@
 #include "SFML/Graphics.hpp"
 #include "EventHandler.h"
 #include "Font.h"
+#include "States.h"
+#include "ProjectIcon.h"
 
 class GuiComponent : public EventHandler,
                      public Font,
+                     public ProjectIcon,
+                     public States,
                      public sf::Drawable,
                      public sf::Transformable {
 public:
-    // From sf::Drawable class
+    virtual // From sf::Drawable class
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const = 0;
 
     // From EventHandler

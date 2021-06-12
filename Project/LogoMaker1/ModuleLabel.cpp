@@ -34,6 +34,10 @@ void ModuleLabel::moduleLabelSetPos(float x, float y) {
   moduleLabel.setPosition(x, y);
 }
 
+sf::FloatRect ModuleLabel::getModuleLabelGlobalBounds() {
+  return moduleLabel.getGlobalBounds();
+}
+
 void ModuleLabel::draw(sf::RenderTarget &window, sf::RenderStates states) const {
   window.draw(moduleLabel);
 }

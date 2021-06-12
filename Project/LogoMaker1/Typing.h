@@ -6,6 +6,8 @@
 #define LOGOMAKER_TYPING_H
 #include "SFML/Graphics.hpp"
 #include "GuiComponent.h"
+#include "Item.h"
+#include "KeyBoardShortCuts.h"
 
 class Typing : public GuiComponent {
 private:
@@ -19,7 +21,10 @@ public:
     Typing();
 
     // Delete input character
-    void deleteChar(sf::RenderWindow&, sf::Event event);
+    void deleteChar();
+
+    // Delete all input characters
+    void deleteAllChars();
 
     // Get txt
     sf::String getTxt();

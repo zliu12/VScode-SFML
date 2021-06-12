@@ -5,11 +5,11 @@
 #include "ModuleBox.h"
 
 ModuleBox::ModuleBox() {
-  moduleBox.setSize({1500, 500});                         // Size
-  moduleBox.setPosition(500, 500);                        // Position
-  moduleBox.setFillColor(sf::Color::Transparent);         // Fill color
-  moduleBox.setOutlineColor(sf::Color::White);            // Outline color
-  moduleBox.setOutlineThickness(1);                       // Outline thickness
+  moduleBox.setSize({1500, 500});                           // Size
+//  moduleBox.setPosition(500, 500);                        // Position
+  moduleBox.setFillColor(sf::Color::Transparent);           // Fill color
+  moduleBox.setOutlineColor(moduleBoxOutlineColor);         // Outline color
+  moduleBox.setOutlineThickness(2);                         // Outline thickness
 }
 
 void ModuleBox::moduleBoxSetSize(float width, float height) {
@@ -44,6 +44,13 @@ sf::Vector2f ModuleBox::getModuleBoxPos() const {
   return moduleBox.getPosition();
 }
 
+sf::FloatRect ModuleBox::getGlobalBounds() {
+  return moduleBox.getGlobalBounds();
+}
+
+sf::Color ModuleBox::getModuleBoxColor() {
+  return moduleBox.getFillColor();
+}
 
 void ModuleBox::draw(sf::RenderTarget &window, sf::RenderStates states) const {
   window.draw(moduleBox);
@@ -63,7 +70,6 @@ void ModuleBox::addEventHandler(sf::RenderWindow &window, sf::Event event) {
   if (clicked) {
       moduleBox.setPosition(mousePos.x, mousePos.y);
   }
-
 }
 
 void ModuleBox::update() {

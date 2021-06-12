@@ -11,12 +11,15 @@
 #include "TextInput.h"
 #include "TextDisplay.h"
 #include "Slider.h"
+#include "ColorMenu.h"
 
 class TextArea : public GuiComponent {
 private:
     ModuleBox textAreaBox;
     TextInput textInput;
     TextDisplay textDisplay;
+    Slider bgOpacity = Slider("Background Opacity", {1880, 980});
+    ColorMenu bgColorMenu = ColorMenu("BackGround Color", {2410, 1130}, {2410, 1200});
 
 public:
     // Default constructor
@@ -24,9 +27,6 @@ public:
 
     // Set textAreaBox in the middle of the window
     void centerTextAreaBox();
-
-    // Set textDisplay in the middle of the textAreaBox
-//    void centerTextDisplay();
 
     // Reset textInput position
     void resetTextInputPos();

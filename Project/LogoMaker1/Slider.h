@@ -10,6 +10,7 @@
 #include "MouseEvents.h"
 #include "ModuleLabel.h"
 #include "ModuleBox.h"
+#include "Item.h"
 
 class Slider : public GuiComponent {
 private:
@@ -22,6 +23,7 @@ private:
     bool clicked = false;
     int MovDist = 0;
     std::string MovDistStr;
+    bool showScaleMark = false;
 
 public:
     // Default constructor

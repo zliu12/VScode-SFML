@@ -29,13 +29,12 @@ Slider::Slider() {
 
 Slider::Slider(const std::string& label, sf::Vector2f pos) {
   /* sliderBox */
-  sliderBox.moduleBoxSetSize(200, 600);
+  sliderBox.moduleBoxSetSize(100, 600);
   sliderBox.moduleBoxSetPos(pos.x, pos.y);
-  sliderBox.moduleBoxSetOutlineFillColor(sf::Color::White);
-  sliderBox.moduleBoxSetOutlineThickness(1);
+  sliderBox.moduleBoxSetOutlineThickness(3);
 
   /* scaleLine */
-  scaleLine.setFillColor(sf::Color::White);
+  scaleLine.setFillColor(sf::Color::Cyan);
   scaleLine.setSize({5, static_cast<float>((sliderBox.getModuleBoxSize().y * 0.80))});
   setScaleLinePos();
 
@@ -47,7 +46,7 @@ Slider::Slider(const std::string& label, sf::Vector2f pos) {
 
   /* sliderLabel */
   sliderLabel.moduleLabelSetStr(label);
-  sliderLabel.moduleLabelSetCharSize(30);
+  sliderLabel.moduleLabelSetCharSize(21);
   setSliderLabelPos();
 
   /* Initial position */
@@ -62,12 +61,15 @@ Slider::Slider(const std::string& label, sf::Vector2f pos) {
 }
 
 void Slider::setSliderLabelPos() {
-  sliderLabel.moduleLabelSetPos(sliderBox.getModuleBoxPos().x, sliderBox.getModuleBoxPos().y + scaleLine.getSize().y + 65);
+//  sliderLabel.moduleLabelSetPos(sliderBox.getModuleBoxPos().x + (sliderBox.getModuleBoxSize().x - sliderLabel.getModuleLabelGlobalBounds().width)/ 2,
+//                                sliderBox.getModuleBoxPos().y + scaleLine.getSize().y + 65);
+  sliderLabel.moduleLabelSetPos(sliderBox.getModuleBoxPos().x + (sliderBox.getModuleBoxSize().x - sliderLabel.getModuleLabelGlobalBounds().width)/ 2,
+                                sliderBox.getModuleBoxPos().y + sliderBox.getModuleBoxSize().y + 20);
 }
 
 void Slider::setScaleLinePos() {
   scaleLine.setPosition(sliderBox.getModuleBoxPos().x + (sliderBox.getModuleBoxSize().x - scaleLine.getSize().x) / 2,
-                        sliderBox.getModuleBoxPos().y + (sliderBox.getModuleBoxSize().y - scaleLine.getSize().y) / 2 - 25);
+                        sliderBox.getModuleBoxPos().y + (sliderBox.getModuleBoxSize().y - scaleLine.getSize().y) / 2 + 5);
 }
 
 void Slider::setScaleMarkPos() {
@@ -76,13 +78,13 @@ void Slider::setScaleMarkPos() {
 }
 
 void Slider::setNumValPos() {
-  numVal.setPosition(scaleLine.getPosition().x - sliderBox.getModuleBoxSize().x / 2 + 10, scaleLine.getPosition().y - 30);
+  numVal.setPosition(scaleLine.getPosition().x - sliderBox.getModuleBoxSize().x / 2 + 10, scaleLine.getPosition().y - 55);
 }
 
 void Slider::moveScaleMark(sf::RenderWindow &window) {
   sf::Vector2i mousePos = sf::Mouse::getPosition(window);
   if (clicked) {
-    scaleLine.setFillColor(sf::Color::Cyan);
+//    scaleLine.setFillColor(sf::Color::Cyan);
     scaleMark.setOutlineThickness(5);
     scaleMark.setPosition(scaleMark.getPosition().x, mousePos.y);
     MovDist = static_cast<int>(mousePos.y - scaleLine.getPosition().y - scaleLine.getSize().y + scaleMark.getRadius()) * -1;
@@ -105,8 +107,8 @@ void Slider::moveScaleMark(sf::RenderWindow &window) {
     std::cout << MovDistStr << std::endl;
   }
   else {
-    scaleLine.setFillColor(sf::Color::Transparent);
     scaleMark.setOutlineThickness(0);
+//    scaleMark.setFillColor(sf::Color::Transparent);
   }
 }
 
@@ -139,8 +141,8 @@ void Slider::draw(sf::RenderTarget& window, sf::RenderStates states) const {
   window.draw(sliderBox);
   window.draw(sliderLabel);
   window.draw(scaleLine);
-  window.draw(scaleMark);
   window.draw(numVal);
+  window.draw(scaleMark);
 }
 
 void Slider::addEventHandler(sf::RenderWindow &window, sf::Event event) {
@@ -148,26 +150,39 @@ void Slider::addEventHandler(sf::RenderWindow &window, sf::Event event) {
   // won't move
   // Comment out sliderBox.addEventHandler, scaleMark can move, but sliderBox can't move, and scaleMark always reset to
   // initial position (comment out setScaleMarkPos() to make it not reset automatically)
-//  sliderBox.addEventHandler(window, event);
-//  setScaleMarkPos();
+  if (States::floatMode) {
+    sliderBox.addEventHandler(window, event);
+    setScaleMarkPos();
+  }
 
   // These three keeps everything inside the sliderBox moving with the sliderBox
   setScaleLinePos();
   setSliderLabelPos();
   setNumValPos();
+//  setScaleMarkPos();
 
   setClickedTrue(window, event);
   moveScaleMark(window);
-
   numVal.setString(MovDistStr);
 
-  // Reset position to initial position
-  if (KeyBoardShortCuts::resetPos()) {
-    resetSliderPos();
-    std::cout << "Reset slider" << std::endl;
+  if (MouseEvents<ModuleBox>::hovered(sliderBox, window)) {
+    showScaleMark = true;
+    scaleMark.setFillColor(sf::Color::Blue);
+  }
+  else {
+    showScaleMark = false;
+    scaleMark.setFillColor(sf::Color::Transparent);
   }
 }
 
 void Slider::update() {
+  // Reset position to initial position
+  if (KeyBoardShortCuts::resetPos()) {
+    resetSliderPos();
+//    std::cout << "Reset slider" << std::endl;
+  }
 
+  if (Item::getStrClicked() == "Reset Module         (Command+F1)") {
+    resetSliderPos();
+  }
 }

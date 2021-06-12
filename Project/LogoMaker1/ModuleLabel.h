@@ -29,6 +29,9 @@ public:
     // Set moduleLabel position
     void moduleLabelSetPos(float x, float y);
 
+    // Get moduleLabel global bounds
+    sf::FloatRect getModuleLabelGlobalBounds();
+
     // From sf::Drawable class
     void draw(sf::RenderTarget& window, sf::RenderStates states) const override;
 
