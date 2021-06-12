@@ -8,5 +8,5 @@
       find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 
 3. You may want to set up compiler path and C++ standard before hitting build project.
-4. Feel free to use my code as an example of what a good coder should or should not do.
+4. Feel free to use my code as an example of what a good coder should or should not do. 
 5. My YouTuBe channel: https://www.youtube.com/channel/UCITwUDbeEqhE9-y8HEsRofg
