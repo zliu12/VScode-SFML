@@ -4,7 +4,7 @@
 
 int main(int, char**) {
 	// Window setup
-	sf::RenderWindow win(sf::VideoMode(1500, 1500), "BOUNCING BALL");
+	sf::RenderWindow win(sf::VideoMode(1500, 1500), "BLINKING EFFECT");
 	win.setPosition(sf::Vector2i(500, 200));
 
 	Cursor cursor1;
