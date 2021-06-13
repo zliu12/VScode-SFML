@@ -18,9 +18,6 @@ Cursor::Cursor() {
   /* cursor */
   cursor.setSize(sf::Vector2f(10, textBox.getSize().y * 0.75));
   cursor.setFillColor(sf::Color::White);
-  cursor.setPosition(textBox.getPosition().x + 10, 
-                     textBox.getPosition().y + textBox.getSize().y / 2 -
-                     cursor.getGlobalBounds().height / 2);
 
   showCursor = false;
 }
@@ -53,16 +50,24 @@ bool Cursor::clickWindow(sf::RenderWindow &window, sf::Event event) {
 
 // Make cursor blink
 void Cursor::blinkCursor() {
-  if (clock.getElapsedTime().asSeconds() <= blinkInterval) {
+  // > 0.3s, cursor becomes transparent
+  if (clock.getElapsedTime().asSeconds() > blinkInterval) {
     cursor.setFillColor(sf::Color::White);
-    std::cout << "Cursor white" << std::endl;
   }
-  else if (clock.getElapsedTime().asSeconds() < blinkInterval * 2 &&
-           clock.getElapsedTime().asSeconds() > blinkInterval) {
-    cursor.setFillColor(sf::Color::Blue);
-    std::cout << "Cursor Blue" << std::endl;
+
+  // > 0.6s, restart clock, cursor becomes white
+  if (clock.getElapsedTime().asSeconds() > blinkInterval * 2) {
     clock.restart();
+    cursor.setFillColor(sf::Color::Transparent);
   }
+}
+
+// Set textBox position
+void Cursor::setTextBoxPos(float x, float y) {
+  textBox.setPosition(x, y);
+  cursor.setPosition(textBox.getPosition().x + 20, 
+                     textBox.getPosition().y + textBox.getSize().y / 2 -
+                     cursor.getGlobalBounds().height / 2);
 }
 
 // Event handler
@@ -87,11 +92,5 @@ void Cursor::draw(sf::RenderTarget &window, sf::RenderStates state) const {
 
 // Update function
 void Cursor::update() {
-  if (clock.getElapsedTime().asSeconds() > blinkInterval) {
-    cursor.setFillColor(sf::Color::Transparent);
-  }
-  if (clock.getElapsedTime().asSeconds() > blinkInterval * 2) {
-    clock.restart();
-    cursor.setFillColor(sf::Color::White);
-  }
+  blinkCursor();
 }

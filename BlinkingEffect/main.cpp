@@ -7,7 +7,10 @@ int main(int, char**) {
 	sf::RenderWindow win(sf::VideoMode(1500, 1500), "BLINKING EFFECT");
 	win.setPosition(sf::Vector2i(500, 200));
 
-	Cursor cursor1;
+	Cursor cursor1, cursor2;
+	cursor1.setTextBoxPos(100, 100);
+	cursor2.setTextBoxPos(900, 100);
+
 
 	while (win.isOpen()) {
 		sf::Event event;
@@ -16,11 +19,14 @@ int main(int, char**) {
 				win.close();
 			}
 			cursor1.addEventHandler(win, event);
+			cursor2.addEventHandler(win, event);
 		}
 
-		win.clear();
 		cursor1.update();
+		cursor2.update();
+		win.clear();
 		win.draw(cursor1);
+		win.draw(cursor2);
 		win.display();
 	}
 	

@@ -14,7 +14,7 @@ class Cursor : public sf::Drawable, sf::Transformable{
     sf::RectangleShape textBox;
     sf::RectangleShape cursor;
     sf::Clock clock;
-    float blinkInterval = 0.3;
+    float blinkInterval = 0.5;
     bool showCursor;
 
   public:
@@ -32,6 +32,9 @@ class Cursor : public sf::Drawable, sf::Transformable{
 
     // Make cursor blink
     void blinkCursor();
+
+    // Set textBox position
+    void setTextBoxPos(float x, float y);
 
     // Event handler
     void addEventHandler(sf::RenderWindow &window, sf::Event event);
