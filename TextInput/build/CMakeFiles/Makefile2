@@ -109,12 +109,12 @@ clean: CMakeFiles/Experimental.dir/clean
 CMakeFiles/TextInput.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextInput.dir/build.make CMakeFiles/TextInput.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextInput.dir/build.make CMakeFiles/TextInput.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qcl/pcc/spring2021/SFML/TextInput/build/CMakeFiles --progress-num=1,2 "Built target TextInput"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qcl/pcc/spring2021/SFML/TextInput/build/CMakeFiles --progress-num=1,2,3 "Built target TextInput"
 .PHONY : CMakeFiles/TextInput.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TextInput.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qcl/pcc/spring2021/SFML/TextInput/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qcl/pcc/spring2021/SFML/TextInput/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TextInput.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qcl/pcc/spring2021/SFML/TextInput/build/CMakeFiles 0
 .PHONY : CMakeFiles/TextInput.dir/rule

@@ -5,7 +5,8 @@ project(TextInput VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(TextInput main.cpp)
+add_executable(TextInput main.cpp
+Cursor.cpp Cursor.h)
 
 target_link_libraries(TextInput sfml-graphics sfml-audio)
 

@@ -1,7 +1,7 @@
 /**
- * NodeIterator - Implementation
+ * NodeIterator - Definitions
  *
- * Copyright (c) [2021], Zhao Liu.
+ * Copyright (c) [2021], John Liu.
  */
 
 #ifndef NODEITERATOR_CPP_

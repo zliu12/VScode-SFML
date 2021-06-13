@@ -1,7 +1,7 @@
 /**
- * linkedList - Implementation
+ * LinkedList - Definitions
  *
- * Copyright (c) [2021], Zhao Liu.
+ * Copyright (c) [2021], John Liu.
  */
 
 #ifndef LINKEDLIST_CPP_

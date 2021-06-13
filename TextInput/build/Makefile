@@ -523,6 +523,30 @@ Experimental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
+Cursor.o: Cursor.cpp.o
+.PHONY : Cursor.o
+
+# target to build an object file
+Cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextInput.dir/build.make CMakeFiles/TextInput.dir/Cursor.cpp.o
+.PHONY : Cursor.cpp.o
+
+Cursor.i: Cursor.cpp.i
+.PHONY : Cursor.i
+
+# target to preprocess a source file
+Cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextInput.dir/build.make CMakeFiles/TextInput.dir/Cursor.cpp.i
+.PHONY : Cursor.cpp.i
+
+Cursor.s: Cursor.cpp.s
+.PHONY : Cursor.s
+
+# target to generate assembly for a file
+Cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextInput.dir/build.make CMakeFiles/TextInput.dir/Cursor.cpp.s
+.PHONY : Cursor.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -587,6 +611,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... TextInput"
+	@echo "... Cursor.o"
+	@echo "... Cursor.i"
+	@echo "... Cursor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

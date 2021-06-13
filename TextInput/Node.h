@@ -1,7 +1,7 @@
 /**
  * Node - Header
  *
- * Copyright (c) [2021], Zhao Liu.
+ * Copyright (c) [2021], John Liu.
  */
 
 #ifndef NODE_H_

@@ -1,5 +1,5 @@
 /**
- * Node - Implementation
+ * Node - Definitions
  *
- * Copyright (c) [2021], Zhao Liu.
+ * Copyright (c) [2021], John Liu.
  */
