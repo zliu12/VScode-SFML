@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -214,7 +214,7 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/Library/Developer/CommandLineTools/usr/bin/c++"
 		},
 		{
@@ -310,7 +310,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/Library/Developer/CommandLineTools/usr/bin/cc"
 		},
 		{
